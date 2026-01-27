@@ -1,0 +1,101 @@
+call_id,timestamp,caller_number,location,latitude,longitude,call_type,priority,description
+CALL_1000,18:00:01,+91-9850239339,MI Road,26.9157,75.8186,Public Disturbance,Critical,Reported Public Disturbance at MI Road. request immediate assistance.
+CALL_1001,18:00:44,+91-9863855340,MI Road,26.9157,75.8186,Medical,Low,Reported Medical at MI Road. request immediate assistance.
+CALL_1002,18:01:09,+91-9828270337,MI Road,26.9157,75.8186,Fire,Critical,Reported Fire at MI Road. request immediate assistance.
+CALL_1003,18:01:12,+91-9859953327,Sindhi Camp Bus Stand,26.9221,75.7983,Public Disturbance,Critical,Reported Public Disturbance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1004,18:01:42,+91-9863060841,Metro Station Jaipur,26.9165,75.7893,Police Assistance,Medium,Reported Police Assistance at Metro Station Jaipur. request immediate assistance.
+CALL_1005,18:01:57,+91-9856719243,Jaipur Junction,26.9196,75.7878,Fire,Critical,Reported Fire at Jaipur Junction. request immediate assistance.
+CALL_1006,18:02:06,+91-9892947376,Metro Station Jaipur,26.9165,75.7893,Suspicious Object,Medium,Reported Suspicious Object at Metro Station Jaipur. request immediate assistance.
+CALL_1007,18:02:26,+91-9817394943,MI Road,26.9157,75.8186,Suspicious Object,Low,Reported Suspicious Object at MI Road. request immediate assistance.
+CALL_1008,18:02:47,+91-9854890030,Station Road,26.9182,75.7901,Fire,Critical,Reported Fire at Station Road. request immediate assistance.
+CALL_1009,18:03:29,+91-9871527164,Station Road,26.9182,75.7901,Medical,Medium,Reported Medical at Station Road. request immediate assistance.
+CALL_1010,18:03:21,+91-9857544705,MI Road,26.9157,75.8186,Medical,High,Reported Medical at MI Road. request immediate assistance.
+CALL_1011,18:03:49,+91-9883561950,MI Road,26.9157,75.8186,Fire,Critical,Reported Fire at MI Road. request immediate assistance.
+CALL_1012,18:04:21,+91-9893430822,Jaipur Junction,26.9196,75.7878,Medical,Low,Reported Medical at Jaipur Junction. request immediate assistance.
+CALL_1013,18:04:42,+91-9867934309,Station Road,26.9182,75.7901,Police Assistance,Medium,Reported Police Assistance at Station Road. request immediate assistance.
+CALL_1014,18:04:44,+91-9837972110,Sindhi Camp Bus Stand,26.9221,75.7983,Fire,Critical,Reported Fire at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1015,18:05:26,+91-9888145463,Jaipur Junction,26.9196,75.7878,Police Assistance,Critical,Reported Police Assistance at Jaipur Junction. request immediate assistance.
+CALL_1016,18:05:23,+91-9835598378,Metro Station Jaipur,26.9165,75.7893,Medical,Medium,Reported Medical at Metro Station Jaipur. request immediate assistance.
+CALL_1017,18:05:42,+91-9856049334,Metro Station Jaipur,26.9165,75.7893,Medical,High,Reported Medical at Metro Station Jaipur. request immediate assistance.
+CALL_1018,18:06:18,+91-9854166708,Sindhi Camp Bus Stand,26.9221,75.7983,Medical,Low,Reported Medical at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1019,18:06:47,+91-9876404741,Metro Station Jaipur,26.9165,75.7893,Medical,Low,Reported Medical at Metro Station Jaipur. request immediate assistance.
+CALL_1020,18:06:44,+91-9831217721,MI Road,26.9157,75.8186,Suspicious Object,Low,Reported Suspicious Object at MI Road. request immediate assistance.
+CALL_1021,18:07:22,+91-9847233511,Station Road,26.9182,75.7901,Public Disturbance,Critical,Reported Public Disturbance at Station Road. request immediate assistance.
+CALL_1022,18:07:20,+91-9899404738,Sindhi Camp Bus Stand,26.9221,75.7983,Fire,Critical,Reported Fire at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1023,18:07:55,+91-9858012696,MI Road,26.9157,75.8186,Suspicious Object,Low,Reported Suspicious Object at MI Road. request immediate assistance.
+CALL_1024,18:08:30,+91-9827891337,Sindhi Camp Bus Stand,26.9221,75.7983,Medical,Critical,Reported Medical at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1025,18:08:28,+91-9812332142,Metro Station Jaipur,26.9165,75.7893,Medical,Medium,Reported Medical at Metro Station Jaipur. request immediate assistance.
+CALL_1026,18:09:06,+91-9875522921,Station Road,26.9182,75.7901,Public Disturbance,Critical,Reported Public Disturbance at Station Road. request immediate assistance.
+CALL_1027,18:09:09,+91-9817815284,Jaipur Junction,26.9196,75.7878,Fire,Critical,Reported Fire at Jaipur Junction. request immediate assistance.
+CALL_1028,18:09:43,+91-9882584235,Metro Station Jaipur,26.9165,75.7893,Suspicious Object,Critical,Reported Suspicious Object at Metro Station Jaipur. request immediate assistance.
+CALL_1029,18:09:48,+91-9874021039,Jaipur Junction,26.9196,75.7878,Fire,Critical,Reported Fire at Jaipur Junction. request immediate assistance.
+CALL_1030,18:10:04,+91-9819993582,Sindhi Camp Bus Stand,26.9221,75.7983,Public Disturbance,Critical,Reported Public Disturbance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1031,18:10:39,+91-9823667186,Metro Station Jaipur,26.9165,75.7893,Police Assistance,High,Reported Police Assistance at Metro Station Jaipur. request immediate assistance.
+CALL_1032,18:10:59,+91-9835391327,Metro Station Jaipur,26.9165,75.7893,Police Assistance,Medium,Reported Police Assistance at Metro Station Jaipur. request immediate assistance.
+CALL_1033,18:11:17,+91-9842713120,Sindhi Camp Bus Stand,26.9221,75.7983,Suspicious Object,Critical,Reported Suspicious Object at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1034,18:11:40,+91-9819133078,Station Road,26.9182,75.7901,Police Assistance,Medium,Reported Police Assistance at Station Road. request immediate assistance.
+CALL_1035,18:12:09,+91-9858763017,Metro Station Jaipur,26.9165,75.7893,Police Assistance,Low,Reported Police Assistance at Metro Station Jaipur. request immediate assistance.
+CALL_1036,18:12:02,+91-9864442501,Sindhi Camp Bus Stand,26.9221,75.7983,Police Assistance,Medium,Reported Police Assistance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1037,18:12:23,+91-9817413086,MI Road,26.9157,75.8186,Public Disturbance,Critical,Reported Public Disturbance at MI Road. request immediate assistance.
+CALL_1038,18:13:03,+91-9870878544,Metro Station Jaipur,26.9165,75.7893,Police Assistance,Critical,Reported Police Assistance at Metro Station Jaipur. request immediate assistance.
+CALL_1039,18:13:06,+91-9872865094,Station Road,26.9182,75.7901,Police Assistance,Low,Reported Police Assistance at Station Road. request immediate assistance.
+CALL_1040,18:13:47,+91-9885395936,Jaipur Junction,26.9196,75.7878,Police Assistance,Medium,Reported Police Assistance at Jaipur Junction. request immediate assistance.
+CALL_1041,18:13:43,+91-9811872613,MI Road,26.9157,75.8186,Medical,Critical,Reported Medical at MI Road. request immediate assistance.
+CALL_1042,18:14:20,+91-9818385732,Sindhi Camp Bus Stand,26.9221,75.7983,Medical,Critical,Reported Medical at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1043,18:14:33,+91-9875743117,MI Road,26.9157,75.8186,Suspicious Object,Critical,Reported Suspicious Object at MI Road. request immediate assistance.
+CALL_1044,18:14:45,+91-9859961042,Jaipur Junction,26.9196,75.7878,Medical,Low,Reported Medical at Jaipur Junction. request immediate assistance.
+CALL_1045,18:15:00,+91-9859250019,MI Road,26.9157,75.8186,Medical,Medium,Reported Medical at MI Road. request immediate assistance.
+CALL_1046,18:15:27,+91-9881576522,Station Road,26.9182,75.7901,Suspicious Object,High,Reported Suspicious Object at Station Road. request immediate assistance.
+CALL_1047,18:15:56,+91-9830697413,Metro Station Jaipur,26.9165,75.7893,Medical,Low,Reported Medical at Metro Station Jaipur. request immediate assistance.
+CALL_1048,18:16:17,+91-9886996051,Metro Station Jaipur,26.9165,75.7893,Public Disturbance,Critical,Reported Public Disturbance at Metro Station Jaipur. request immediate assistance.
+CALL_1049,18:16:37,+91-9826381909,Jaipur Junction,26.9196,75.7878,Fire,Critical,Reported Fire at Jaipur Junction. request immediate assistance.
+CALL_1050,18:17:10,+91-9815213096,Sindhi Camp Bus Stand,26.9221,75.7983,Police Assistance,High,Reported Police Assistance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1051,18:17:13,+91-9879596384,Metro Station Jaipur,26.9165,75.7893,Police Assistance,Critical,Reported Police Assistance at Metro Station Jaipur. request immediate assistance.
+CALL_1052,18:17:45,+91-9842015601,Station Road,26.9182,75.7901,Suspicious Object,Medium,Reported Suspicious Object at Station Road. request immediate assistance.
+CALL_1053,18:17:48,+91-9859702901,Sindhi Camp Bus Stand,26.9221,75.7983,Police Assistance,High,Reported Police Assistance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1054,18:18:10,+91-9878109250,Station Road,26.9182,75.7901,Fire,Critical,Reported Fire at Station Road. request immediate assistance.
+CALL_1055,18:18:24,+91-9831419277,Sindhi Camp Bus Stand,26.9221,75.7983,Public Disturbance,Critical,Reported Public Disturbance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1056,18:18:55,+91-9873367627,Metro Station Jaipur,26.9165,75.7893,Public Disturbance,Critical,Reported Public Disturbance at Metro Station Jaipur. request immediate assistance.
+CALL_1057,18:19:23,+91-9818890896,Station Road,26.9182,75.7901,Medical,Critical,Reported Medical at Station Road. request immediate assistance.
+CALL_1058,18:19:31,+91-9820914092,Sindhi Camp Bus Stand,26.9221,75.7983,Public Disturbance,Critical,Reported Public Disturbance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1059,18:19:55,+91-9832127563,Metro Station Jaipur,26.9165,75.7893,Public Disturbance,Critical,Reported Public Disturbance at Metro Station Jaipur. request immediate assistance.
+CALL_1060,18:20:17,+91-9837125392,Metro Station Jaipur,26.9165,75.7893,Medical,Low,Reported Medical at Metro Station Jaipur. request immediate assistance.
+CALL_1061,18:20:31,+91-9867397032,Sindhi Camp Bus Stand,26.9221,75.7983,Medical,Low,Reported Medical at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1062,18:21:01,+91-9848454127,Station Road,26.9182,75.7901,Public Disturbance,Critical,Reported Public Disturbance at Station Road. request immediate assistance.
+CALL_1063,18:21:26,+91-9858030561,Station Road,26.9182,75.7901,Public Disturbance,Critical,Reported Public Disturbance at Station Road. request immediate assistance.
+CALL_1064,18:21:43,+91-9826253380,Metro Station Jaipur,26.9165,75.7893,Medical,High,Reported Medical at Metro Station Jaipur. request immediate assistance.
+CALL_1065,18:21:54,+91-9845710229,MI Road,26.9157,75.8186,Police Assistance,Low,Reported Police Assistance at MI Road. request immediate assistance.
+CALL_1066,18:22:21,+91-9810834267,MI Road,26.9157,75.8186,Fire,Critical,Reported Fire at MI Road. request immediate assistance.
+CALL_1067,18:22:26,+91-9825754671,MI Road,26.9157,75.8186,Public Disturbance,Critical,Reported Public Disturbance at MI Road. request immediate assistance.
+CALL_1068,18:22:48,+91-9855020949,Sindhi Camp Bus Stand,26.9221,75.7983,Fire,Critical,Reported Fire at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1069,18:23:13,+91-9875016770,Metro Station Jaipur,26.9165,75.7893,Suspicious Object,High,Reported Suspicious Object at Metro Station Jaipur. request immediate assistance.
+CALL_1070,18:23:31,+91-9889409698,Sindhi Camp Bus Stand,26.9221,75.7983,Public Disturbance,Critical,Reported Public Disturbance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1071,18:23:50,+91-9814051756,Metro Station Jaipur,26.9165,75.7893,Fire,Critical,Reported Fire at Metro Station Jaipur. request immediate assistance.
+CALL_1072,18:24:27,+91-9827982443,Sindhi Camp Bus Stand,26.9221,75.7983,Fire,Critical,Reported Fire at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1073,18:24:46,+91-9854839119,MI Road,26.9157,75.8186,Fire,Critical,Reported Fire at MI Road. request immediate assistance.
+CALL_1074,18:25:04,+91-9820814865,Sindhi Camp Bus Stand,26.9221,75.7983,Fire,Critical,Reported Fire at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1075,18:25:20,+91-9810283953,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1076,18:25:39,+91-9844109518,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1077,18:25:57,+91-9813395962,Sindhi Camp Bus Stand,26.9221,75.7983,Police Assistance,Medium,Reported Police Assistance at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1078,18:26:10,+91-9861181599,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1079,18:26:46,+91-9862767019,Station Road,26.9182,75.7901,Suspicious Object,Medium,Reported Suspicious Object at Station Road. request immediate assistance.
+CALL_1080,18:26:41,+91-9862325925,Station Road,26.9182,75.7901,Medical,High,Reported Medical at Station Road. request immediate assistance.
+CALL_1081,18:27:25,+91-9865422246,Metro Station Jaipur,26.9165,75.7893,Public Disturbance,Critical,Reported Public Disturbance at Metro Station Jaipur. request immediate assistance.
+CALL_1082,18:27:34,+91-9819500444,Sindhi Camp Bus Stand,26.9221,75.7983,Fire,Critical,Reported Fire at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1083,18:27:58,+91-9831103018,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1084,18:28:01,+91-9836413902,Sindhi Camp Bus Stand,26.9221,75.7983,Fire,Critical,Reported Fire at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1085,18:28:37,+91-9821062650,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1086,18:29:02,+91-9827919841,Station Road,26.9182,75.7901,Police Assistance,Critical,Reported Police Assistance at Station Road. request immediate assistance.
+CALL_1087,18:29:26,+91-9865825125,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1088,18:29:25,+91-9812589575,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1089,18:29:49,+91-9861469944,Metro Station Jaipur,26.9165,75.7893,Police Assistance,Medium,Reported Police Assistance at Metro Station Jaipur. request immediate assistance.
+CALL_1090,18:30:02,+91-9890093260,Station Road,26.9182,75.7901,Fire,Critical,Reported Fire at Station Road. request immediate assistance.
+CALL_1091,18:30:23,+91-9856290033,MI Road,26.9157,75.8186,Medical,Critical,Reported Medical at MI Road. request immediate assistance.
+CALL_1092,18:30:56,+91-9844185857,Station Road,26.9182,75.7901,Public Disturbance,Critical,Reported Public Disturbance at Station Road. request immediate assistance.
+CALL_1093,18:31:04,+91-9831697445,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1094,18:31:20,+91-9819778091,Jaipur Junction,26.9196,75.7878,Fire,Critical,Reported Fire at Jaipur Junction. request immediate assistance.
+CALL_1095,18:31:52,+91-9867659939,MI Road,26.9157,75.8186,Suspicious Object,Medium,Reported Suspicious Object at MI Road. request immediate assistance.
+CALL_1096,18:32:13,+91-9854869240,MI Road,26.9157,75.8186,Fire,Critical,Reported Fire at MI Road. request immediate assistance.
+CALL_1097,18:32:28,+91-9854467893,Jaipur Junction,26.9196,75.7878,Public Disturbance,Critical,Reported Public Disturbance at Jaipur Junction. request immediate assistance.
+CALL_1098,18:33:06,+91-9848816644,Sindhi Camp Bus Stand,26.9221,75.7983,Medical,Medium,Reported Medical at Sindhi Camp Bus Stand. request immediate assistance.
+CALL_1099,18:33:30,+91-9831582427,Jaipur Junction,26.9196,75.7878,Police Assistance,Low,Reported Police Assistance at Jaipur Junction. request immediate assistance.

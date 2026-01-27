@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shield Intelligence Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .glass {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-950 text-white font-sans h-screen overflow-hidden flex">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-slate-900 border-r border-slate-800 flex flex-col">
+        <div class="p-6 border-b border-slate-800">
+            <h1 class="text-2xl font-bold text-blue-500 tracking-wider">SHIELD<span class="text-white">AI</span></h1>
+            <p class="text-xs text-slate-400 mt-1">Inter-Agency Intelligence</p>
+        </div>
+        <nav class="flex-1 p-4 space-y-2">
+            <button onclick="showView('dashboard')"
+                class="w-full text-left p-3 rounded hover:bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-3">
+                <span>📊</span> Dashboard
+            </button>
+            <button onclick="showView('graph')"
+                class="w-full text-left p-3 rounded hover:bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-3">
+                <span>🕸️</span> Link Analysis
+            </button>
+            <button onclick="showView('alerts')"
+                class="w-full text-left p-3 rounded hover:bg-slate-800 text-slate-300 hover:text-white transition flex items-center gap-3">
+                <span>🚨</span> Alerts <span id="alert-badge"
+                    class="ml-auto bg-red-500 text-white text-xs px-2 py-0.5 rounded-full hidden">0</span>
+            </button>
+        </nav>
+        <div class="p-4 border-t border-slate-800">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold">A</div>
+                <div>
+                    <p class="text-sm font-medium">Admin User</p>
+                    <p class="text-xs text-slate-400">Central Command</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 flex flex-col h-screen overflow-hidden relative">
+        <!-- Header -->
+        <header
+            class="h-16 bg-slate-900/50 border-b border-slate-800 flex items-center justify-between px-6 backdrop-blur-sm z-10">
+            <h2 class="text-lg font-semibold" id="page-title">Operational Dashboard</h2>
+            <div class="flex items-center gap-4">
+                <span
+                    class="px-3 py-1 rounded-full bg-green-500/20 text-green-400 text-xs border border-green-500/30 animate-pulse">●
+                    Live System</span>
+                <span class="text-slate-400 text-sm" id="clock">--:--:--</span>
+            </div>
+        </header>
+
+        <!-- Dashboard View -->
+        <div id="view-dashboard" class="flex-1 p-6 grid grid-cols-12 gap-6 overflow-y-auto">
+            <!-- Stats Row -->
+            <div class="col-span-12 grid grid-cols-4 gap-6 mb-2">
+                <div class="glass p-4 rounded-xl">
+                    <p class="text-slate-400 text-sm">Total Events</p>
+                    <p class="text-3xl font-bold mt-1" id="stat-events">0</p>
+                </div>
+                <div class="col-span-1 glass p-4 rounded-xl">
+                    <p class="text-slate-400 text-sm">Active Alerts</p>
+                    <p class="text-3xl font-bold mt-1 text-red-500" id="stat-alerts">0</p>
+                </div>
+                <div class="col-span-1 glass p-4 rounded-xl">
+                    <p class="text-slate-400 text-sm">Sources Active</p>
+                    <p class="text-3xl font-bold mt-1 text-blue-400" id="stat-sources">0</p>
+                </div>
+                <div class="col-span-1 glass p-4 rounded-xl">
+                    <p class="text-slate-400 text-sm">Threat Level</p>
+                    <p class="text-3xl font-bold mt-1 text-yellow-500">ELEVATED</p>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="col-span-8 glass rounded-xl overflow-hidden h-[500px] relative">
+                <div id="map" class="w-full h-full z-0"></div>
+                <div class="absolute top-4 right-4 bg-slate-900/80 p-2 rounded text-xs z-[400]">
+                    <p class="text-red-400">● High Risk</p>
+                    <p class="text-yellow-400">● Medium Risk</p>
+                </div>
+            </div>
+
+            <!-- Feed -->
+            <div class="col-span-4 glass rounded-xl flex flex-col h-[500px]">
+                <div class="p-4 border-b border-slate-700">
+                    <h3 class="font-semibold">Intelligence Feed</h3>
+                </div>
+                <div class="flex-1 overflow-y-auto p-4 space-y-4" id="feed-container">
+                    <!-- Feed items injected here -->
+                    <p class="text-center text-slate-500 text-sm">Loading feed...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Graph View (Hidden by default) -->
+        <div id="view-graph" class="hidden flex-1 p-6">
+            <div class="glass w-full h-full rounded-xl flex items-center justify-center">
+                <p class="text-slate-400">Link Analysis Graph Visualization (Placeholder for Static Demo)</p>
+                <!-- In a real scenario, use D3.js or Cytoscape.js here -->
+            </div>
+        </div>
+
+        <!-- Alerts View (Hidden by default) -->
+        <div id="view-alerts" class="hidden flex-1 p-6">
+            <div class="glass w-full h-full rounded-xl p-6">
+                <h3 class="text-xl font-bold mb-4">Active Alerts</h3>
+                <div id="alerts-list" class="space-y-4">
+                    <!-- Alerts injected here -->
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        // --- Config ---
+        const API_URL = 'http://localhost:9000/api';
+        const TOKEN = 'admin-token'; // Mock token
+
+        // --- State ---
+        let map;
+
+        // --- Init ---
+        document.addEventListener('DOMContentLoaded', () => {
+            initMap();
+            startClock();
+            fetchData();
+            setInterval(fetchData, 5000); // Poll every 5s
+        });
+
+        function startClock() {
+            setInterval(() => {
+                document.getElementById('clock').innerText = new Date().toLocaleTimeString();
+            }, 1000);
+        }
+
+        function initMap() {
+            // Center on Jaipur
+            map = L.map('map').setView([26.9124, 75.7873], 13);
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+            }).addTo(map);
+        }
+
+        async function fetchData() {
+            try {
+                const headers = { 'x-token': TOKEN };
+
+                // Fetch Stats
+                const statsRes = await fetch(`${API_URL}/stats`, { headers });
+                const stats = await statsRes.json();
+                document.getElementById('stat-events').innerText = stats.total_events;
+                document.getElementById('stat-alerts').innerText = stats.active_alerts;
+                document.getElementById('stat-sources').innerText = Object.values(stats.sources).reduce((a, b) => a + b, 0);
+
+                // Fetch Feed
+                const feedRes = await fetch(`${API_URL}/feed`, { headers });
+                const feed = await feedRes.json();
+                renderFeed(feed);
+                updateMap(feed);
+
+                // Fetch Alerts
+                const alertsRes = await fetch(`${API_URL}/alerts`, { headers });
+                const alerts = await alertsRes.json();
+                renderAlerts(alerts);
+
+                const badge = document.getElementById('alert-badge');
+                if (alerts.length > 0) {
+                    badge.innerText = alerts.length;
+                    badge.classList.remove('hidden');
+                } else {
+                    badge.classList.add('hidden');
+                }
+
+            } catch (e) {
+                console.error("Error fetching data:", e);
+            }
+        }
+
+        function renderFeed(items) {
+            const container = document.getElementById('feed-container');
+            container.innerHTML = items.slice().reverse().map(item => `
+                <div class="p-3 rounded bg-slate-800/50 border border-slate-700 text-sm">
+                    <div class="flex justify-between items-start mb-1">
+                        <span class="text-xs font-bold uppercase ${getSourceColor(item.source)}">${item.source}</span>
+                        <span class="text-xs text-slate-500">${new Date(item.timestamp).toLocaleTimeString()}</span>
+                    </div>
+                    <p class="text-slate-300">${highlightEntities(item.content, item.entities)}</p>
+                    ${item.location ? `<p class="text-xs text-slate-500 mt-2">📍 ${item.location}</p>` : ''}
+                </div>
+            `).join('');
+        }
+
+        function renderAlerts(alerts) {
+            const container = document.getElementById('alerts-list');
+            container.innerHTML = alerts.map(alert => `
+                <div class="p-4 rounded bg-red-900/20 border border-red-500/50 flex items-start gap-4">
+                    <div class="text-3xl">🚨</div>
+                    <div>
+                        <h4 class="font-bold text-red-400">${alert.title}</h4>
+                        <p class="text-slate-300 text-sm mt-1">${alert.description}</p>
+                        <p class="text-xs text-slate-500 mt-2">${new Date(alert.timestamp).toLocaleString()}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updateMap(items) {
+            // Clear existing markers (simplified)
+            // In real app, manage markers properly
+
+            // Add markers for items with location (Mock coords for Jaipur locations)
+            const locations = {
+                "Hawa Mahal": [26.9239, 75.8267],
+                "Ajmeri Gate": [26.9196, 75.8180],
+                "City Palace": [26.9258, 75.8237],
+                "Albert Hall Museum": [26.9116, 75.8195]
+            };
+
+            items.forEach(item => {
+                if (item.location && locations[item.location]) {
+                    const [lat, lng] = locations[item.location];
+                    L.circleMarker([lat, lng], {
+                        radius: 8,
+                        color: item.source === 'cctv' ? '#ef4444' : '#3b82f6',
+                        fillColor: item.source === 'cctv' ? '#ef4444' : '#3b82f6',
+                        fillOpacity: 0.5
+                    }).addTo(map).bindPopup(item.content);
+                }
+            });
+        }
+
+        function getSourceColor(source) {
+            const colors = {
+                'social_media': 'text-blue-400',
+                'cctv': 'text-red-400',
+                'police': 'text-yellow-400'
+            };
+            return colors[source] || 'text-slate-400';
+        }
+
+        function highlightEntities(text, entities) {
+            let highlighted = text;
+            entities.forEach(ent => {
+                highlighted = highlighted.replace(ent.text, `<span class="bg-indigo-500/30 text-indigo-300 px-1 rounded">${ent.text}</span>`);
+            });
+            return highlighted;
+        }
+
+        function showView(viewName) {
+            ['dashboard', 'graph', 'alerts'].forEach(v => {
+                document.getElementById(`view-${v}`).classList.add('hidden');
+            });
+            document.getElementById(`view-${viewName}`).classList.remove('hidden');
+            document.getElementById('page-title').innerText = viewName.charAt(0).toUpperCase() + viewName.slice(1);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,501 @@
+camera_id,location,zone,timestamp,event_type,crowd_density,movement_pattern,object_detected,severity_level,confidence
+CAM_JPR_14,Platform 1,Platform,18:00:00,crowd_density_high,critical,normal,police_vehicle,high,0.96
+CAM_JPR_13,Jaipur Junction Main Gate,Entry,18:00:08,normal_activity,critical,static,bag,critical,0.92
+CAM_JPR_10,Bus Stand Side,Transit,18:00:16,crowd_density_high,medium,slow,fallen_person,low,0.85
+CAM_JPR_18,Parking Area,Parking,18:00:24,crowd_gathering,medium,outward_flow,fire_smoke,critical,0.86
+CAM_JPR_15,Bus Stand Side,Transit,18:00:32,abnormal_movement,high,static,none,medium,0.97
+CAM_JPR_19,Jaipur Junction Main Gate,Entry,18:00:40,crowd_spillover_detected,medium,increasing_fast,fire_smoke,high,0.83
+CAM_JPR_14,Platform 1,Platform,18:00:48,stampede_risk_detected,high,outward_flow,none,high,0.94
+CAM_JPR_14,Jaipur Junction Main Gate,Entry,18:00:56,crowd_density_critical,high,chaotic,fire_smoke,medium,0.92
+CAM_JPR_04,Jaipur Junction Main Gate,Entry,18:01:04,emergency_corridor_blocked,high,chaotic,fire_smoke,critical,0.98
+CAM_JPR_20,Parking Area,Parking,18:01:12,crowd_density_high,medium,erratic,fire_smoke,high,0.87
+CAM_JPR_07,Foot Over Bridge,FOB,18:01:20,normal_activity,low,increasing,police_vehicle,medium,0.88
+CAM_JPR_14,Bus Stand Side,Transit,18:01:28,crowd_spillover_detected,medium,outward_flow,fallen_person,critical,0.81
+CAM_JPR_12,Platform 3,Platform,18:01:36,normal_activity,low,outward_flow,bag,medium,0.96
+CAM_JPR_17,Bus Stand Side,Transit,18:01:44,crowd_density_critical,critical,erratic,fire_smoke,critical,0.91
+CAM_JPR_05,Bus Stand Side,Transit,18:01:52,loitering_detected,low,slow,fallen_person,low,0.83
+CAM_JPR_12,Parking Area,Parking,18:02:00,crowd_density_critical,very_high,outward_flow,bag,low,0.91
+CAM_JPR_15,Metro Entry Gate,Metro,18:02:08,abnormal_movement,high,increasing,barricade,high,0.95
+CAM_JPR_08,Jaipur Junction Main Gate,Entry,18:02:16,crowd_spillover_detected,high,erratic,fire_smoke,critical,0.93
+CAM_JPR_16,Metro Entry Gate,Metro,18:02:24,crowd_density_high,medium,increasing,fire_smoke,medium,0.89
+CAM_JPR_20,Platform 2,Platform,18:02:32,loitering_detected,high,increasing_fast,none,high,0.9
+CAM_JPR_03,Platform 1,Platform,18:02:40,panic_movement_detected,medium,slow,fallen_person,medium,0.95
+CAM_JPR_20,Platform 3,Platform,18:02:48,crowd_gathering,low,erratic,police_vehicle,critical,0.91
+CAM_JPR_06,Bus Stand Side,Transit,18:02:56,panic_movement_detected,very_high,static,fallen_person,critical,0.84
+CAM_JPR_11,Bus Stand Side,Transit,18:03:04,normal_activity,high,chaotic,fallen_person,medium,0.9
+CAM_JPR_11,Jaipur Junction Main Gate,Entry,18:03:12,panic_movement_detected,very_high,increasing_fast,none,low,0.81
+CAM_JPR_01,Foot Over Bridge,FOB,18:03:20,normal_activity,medium,normal,fire_smoke,low,0.84
+CAM_JPR_09,Platform 3,Platform,18:03:28,crowd_density_high,very_high,chaotic,barricade,low,0.97
+CAM_JPR_05,Parking Area,Parking,18:03:36,crowd_density_high,medium,increasing_fast,police_vehicle,high,0.9
+CAM_JPR_08,Bus Stand Side,Transit,18:03:44,loitering_detected,medium,erratic,fire_smoke,medium,0.86
+CAM_JPR_04,Bus Stand Side,Transit,18:03:52,stampede_risk_detected,very_high,normal,fire_smoke,medium,0.98
+CAM_JPR_06,Foot Over Bridge,FOB,18:04:00,crowd_spillover_detected,critical,erratic,barricade,medium,0.97
+CAM_JPR_02,Platform 3,Platform,18:04:08,vehicle_congestion,critical,static,police_vehicle,medium,0.86
+CAM_JPR_11,Platform 1,Platform,18:04:16,vehicle_congestion,critical,chaotic,fallen_person,medium,0.9
+CAM_JPR_08,Platform 2,Platform,18:04:24,abnormal_movement,medium,increasing_fast,bag,medium,0.93
+CAM_JPR_15,Metro Entry Gate,Metro,18:04:32,normal_activity,low,outward_flow,police_vehicle,low,0.89
+CAM_JPR_07,Platform 1,Platform,18:04:40,stampede_risk_detected,high,static,bag,critical,0.96
+CAM_JPR_08,Platform 1,Platform,18:04:48,crowd_density_critical,very_high,outward_flow,none,high,0.87
+CAM_JPR_04,Bus Stand Side,Transit,18:04:56,loitering_detected,low,increasing_fast,none,critical,0.8
+CAM_JPR_13,Jaipur Junction Main Gate,Entry,18:05:04,crowd_density_critical,high,outward_flow,fallen_person,high,0.81
+CAM_JPR_11,Parking Area,Parking,18:05:12,abnormal_movement,low,outward_flow,fallen_person,high,0.96
+CAM_JPR_19,Platform 3,Platform,18:05:20,panic_movement_detected,low,normal,none,high,0.97
+CAM_JPR_09,Platform 3,Platform,18:05:28,crowd_density_high,low,outward_flow,police_vehicle,critical,0.91
+CAM_JPR_09,Bus Stand Side,Transit,18:05:36,stampede_risk_detected,low,slow,fallen_person,high,0.88
+CAM_JPR_06,Platform 1,Platform,18:05:44,emergency_corridor_blocked,high,normal,police_vehicle,critical,0.85
+CAM_JPR_12,Platform 1,Platform,18:05:52,stampede_risk_detected,very_high,erratic,none,low,0.84
+CAM_JPR_04,Platform 1,Platform,18:06:00,crowd_density_critical,medium,slow,police_vehicle,medium,0.84
+CAM_JPR_08,Platform 3,Platform,18:06:08,normal_activity,low,outward_flow,police_vehicle,high,0.88
+CAM_JPR_20,Parking Area,Parking,18:06:16,panic_movement_detected,medium,slow,police_vehicle,low,0.96
+CAM_JPR_04,Foot Over Bridge,FOB,18:06:24,crowd_density_high,very_high,chaotic,none,medium,0.89
+CAM_JPR_06,Parking Area,Parking,18:06:32,emergency_corridor_blocked,low,increasing,barricade,low,0.81
+CAM_JPR_04,Platform 3,Platform,18:06:40,crowd_density_high,low,erratic,fallen_person,medium,0.95
+CAM_JPR_15,Foot Over Bridge,FOB,18:06:48,emergency_corridor_blocked,medium,slow,fallen_person,critical,0.85
+CAM_JPR_08,Parking Area,Parking,18:06:56,loitering_detected,very_high,outward_flow,none,medium,0.85
+CAM_JPR_17,Foot Over Bridge,FOB,18:07:04,panic_movement_detected,medium,erratic,bag,low,0.94
+CAM_JPR_05,Platform 3,Platform,18:07:12,stampede_risk_detected,very_high,chaotic,barricade,high,0.8
+CAM_JPR_15,Metro Entry Gate,Metro,18:07:20,normal_activity,high,chaotic,bag,medium,0.87
+CAM_JPR_16,Bus Stand Side,Transit,18:07:28,emergency_corridor_blocked,medium,chaotic,barricade,high,0.85
+CAM_JPR_10,Platform 3,Platform,18:07:36,abnormal_movement,medium,static,none,critical,0.89
+CAM_JPR_10,Parking Area,Parking,18:07:44,loitering_detected,high,outward_flow,fallen_person,medium,0.91
+CAM_JPR_16,Parking Area,Parking,18:07:52,vehicle_congestion,low,chaotic,fallen_person,low,0.93
+CAM_JPR_08,Parking Area,Parking,18:08:00,crowd_density_high,critical,normal,bag,critical,0.81
+CAM_JPR_11,Jaipur Junction Main Gate,Entry,18:08:08,crowd_density_high,medium,increasing_fast,fire_smoke,high,0.84
+CAM_JPR_14,Metro Entry Gate,Metro,18:08:16,crowd_density_high,high,static,none,medium,0.92
+CAM_JPR_11,Parking Area,Parking,18:08:24,crowd_spillover_detected,high,slow,fallen_person,low,0.96
+CAM_JPR_12,Bus Stand Side,Transit,18:08:32,vehicle_congestion,medium,outward_flow,police_vehicle,high,0.87
+CAM_JPR_05,Platform 3,Platform,18:08:40,crowd_spillover_detected,high,erratic,fallen_person,low,0.86
+CAM_JPR_02,Platform 1,Platform,18:08:48,abnormal_movement,high,outward_flow,barricade,high,0.98
+CAM_JPR_19,Bus Stand Side,Transit,18:08:56,normal_activity,low,increasing,none,critical,0.94
+CAM_JPR_20,Jaipur Junction Main Gate,Entry,18:09:04,panic_movement_detected,high,increasing_fast,police_vehicle,low,0.93
+CAM_JPR_11,Foot Over Bridge,FOB,18:09:12,crowd_spillover_detected,medium,erratic,none,low,0.97
+CAM_JPR_04,Metro Entry Gate,Metro,18:09:20,crowd_density_critical,very_high,normal,police_vehicle,high,0.93
+CAM_JPR_07,Bus Stand Side,Transit,18:09:28,crowd_density_critical,critical,erratic,barricade,high,0.88
+CAM_JPR_05,Metro Entry Gate,Metro,18:09:36,crowd_density_critical,critical,outward_flow,fire_smoke,medium,0.88
+CAM_JPR_04,Platform 1,Platform,18:09:44,abnormal_movement,high,erratic,barricade,medium,0.89
+CAM_JPR_11,Foot Over Bridge,FOB,18:09:52,crowd_density_high,high,increasing,police_vehicle,medium,0.92
+CAM_JPR_09,Metro Entry Gate,Metro,18:10:00,loitering_detected,high,slow,barricade,critical,0.98
+CAM_JPR_12,Parking Area,Parking,18:10:08,abnormal_movement,medium,normal,fire_smoke,critical,0.97
+CAM_JPR_19,Jaipur Junction Main Gate,Entry,18:10:16,stampede_risk_detected,medium,normal,none,high,0.98
+CAM_JPR_01,Platform 2,Platform,18:10:24,panic_movement_detected,critical,erratic,police_vehicle,critical,0.9
+CAM_JPR_16,Jaipur Junction Main Gate,Entry,18:10:32,normal_activity,high,static,police_vehicle,medium,0.93
+CAM_JPR_15,Platform 3,Platform,18:10:40,panic_movement_detected,critical,outward_flow,barricade,low,0.85
+CAM_JPR_18,Jaipur Junction Main Gate,Entry,18:10:48,vehicle_congestion,very_high,chaotic,police_vehicle,low,0.86
+CAM_JPR_07,Bus Stand Side,Transit,18:10:56,abnormal_movement,high,slow,fallen_person,high,0.84
+CAM_JPR_03,Parking Area,Parking,18:11:04,emergency_corridor_blocked,low,static,police_vehicle,low,0.81
+CAM_JPR_15,Bus Stand Side,Transit,18:11:12,abnormal_movement,very_high,increasing_fast,barricade,high,0.98
+CAM_JPR_02,Platform 2,Platform,18:11:20,abnormal_movement,high,erratic,bag,high,0.95
+CAM_JPR_17,Bus Stand Side,Transit,18:11:28,crowd_density_critical,very_high,normal,police_vehicle,medium,0.95
+CAM_JPR_15,Platform 1,Platform,18:11:36,emergency_corridor_blocked,high,increasing,fallen_person,medium,0.98
+CAM_JPR_15,Platform 2,Platform,18:11:44,loitering_detected,high,increasing,fire_smoke,high,0.92
+CAM_JPR_01,Jaipur Junction Main Gate,Entry,18:11:52,normal_activity,high,outward_flow,police_vehicle,critical,0.91
+CAM_JPR_08,Platform 3,Platform,18:12:00,emergency_corridor_blocked,very_high,outward_flow,barricade,high,0.91
+CAM_JPR_16,Foot Over Bridge,FOB,18:12:08,crowd_density_critical,high,outward_flow,fire_smoke,low,0.89
+CAM_JPR_09,Platform 2,Platform,18:12:16,crowd_gathering,high,chaotic,fire_smoke,low,0.97
+CAM_JPR_01,Platform 3,Platform,18:12:24,vehicle_congestion,critical,outward_flow,none,low,0.99
+CAM_JPR_13,Platform 1,Platform,18:12:32,emergency_corridor_blocked,very_high,increasing_fast,none,high,0.85
+CAM_JPR_14,Foot Over Bridge,FOB,18:12:40,vehicle_congestion,critical,erratic,bag,critical,0.87
+CAM_JPR_09,Jaipur Junction Main Gate,Entry,18:12:48,normal_activity,very_high,chaotic,none,high,0.97
+CAM_JPR_07,Platform 2,Platform,18:12:56,loitering_detected,very_high,chaotic,barricade,critical,0.84
+CAM_JPR_12,Parking Area,Parking,18:13:04,crowd_density_critical,low,increasing,police_vehicle,high,0.93
+CAM_JPR_02,Bus Stand Side,Transit,18:13:12,crowd_density_critical,very_high,static,bag,medium,0.84
+CAM_JPR_02,Platform 1,Platform,18:13:20,crowd_spillover_detected,very_high,increasing_fast,fallen_person,low,0.81
+CAM_JPR_19,Platform 3,Platform,18:13:28,crowd_density_high,critical,slow,none,low,0.97
+CAM_JPR_11,Foot Over Bridge,FOB,18:13:36,emergency_corridor_blocked,critical,static,none,low,0.9
+CAM_JPR_02,Bus Stand Side,Transit,18:13:44,vehicle_congestion,medium,slow,barricade,low,0.93
+CAM_JPR_06,Platform 3,Platform,18:13:52,normal_activity,high,increasing,bag,high,0.95
+CAM_JPR_01,Jaipur Junction Main Gate,Entry,18:14:00,crowd_gathering,medium,chaotic,police_vehicle,medium,0.98
+CAM_JPR_20,Metro Entry Gate,Metro,18:14:08,loitering_detected,high,static,barricade,high,0.88
+CAM_JPR_09,Jaipur Junction Main Gate,Entry,18:14:16,crowd_density_high,low,slow,fallen_person,low,0.85
+CAM_JPR_16,Bus Stand Side,Transit,18:14:24,abnormal_movement,high,slow,fallen_person,high,0.92
+CAM_JPR_02,Jaipur Junction Main Gate,Entry,18:14:32,crowd_gathering,medium,increasing_fast,barricade,low,0.92
+CAM_JPR_05,Parking Area,Parking,18:14:40,crowd_spillover_detected,critical,slow,bag,critical,0.98
+CAM_JPR_01,Foot Over Bridge,FOB,18:14:48,crowd_gathering,very_high,slow,none,critical,0.95
+CAM_JPR_15,Platform 2,Platform,18:14:56,crowd_spillover_detected,high,chaotic,barricade,medium,0.96
+CAM_JPR_11,Platform 3,Platform,18:15:04,abnormal_movement,critical,increasing_fast,fire_smoke,medium,0.95
+CAM_JPR_16,Bus Stand Side,Transit,18:15:12,emergency_corridor_blocked,critical,normal,fire_smoke,critical,0.91
+CAM_JPR_10,Bus Stand Side,Transit,18:15:20,normal_activity,critical,static,barricade,medium,0.89
+CAM_JPR_18,Parking Area,Parking,18:15:28,crowd_density_critical,high,erratic,fire_smoke,low,0.84
+CAM_JPR_17,Metro Entry Gate,Metro,18:15:36,crowd_density_critical,low,increasing_fast,bag,high,0.82
+CAM_JPR_19,Foot Over Bridge,FOB,18:15:44,emergency_corridor_blocked,low,erratic,fallen_person,critical,0.97
+CAM_JPR_17,Metro Entry Gate,Metro,18:15:52,loitering_detected,very_high,increasing,none,critical,0.88
+CAM_JPR_02,Bus Stand Side,Transit,18:16:00,loitering_detected,very_high,increasing_fast,police_vehicle,low,0.83
+CAM_JPR_20,Metro Entry Gate,Metro,18:16:08,crowd_density_critical,very_high,increasing,bag,low,0.82
+CAM_JPR_05,Bus Stand Side,Transit,18:16:16,stampede_risk_detected,very_high,normal,barricade,critical,0.88
+CAM_JPR_01,Metro Entry Gate,Metro,18:16:24,loitering_detected,critical,normal,none,low,0.88
+CAM_JPR_17,Platform 1,Platform,18:16:32,crowd_density_high,high,chaotic,fallen_person,critical,0.81
+CAM_JPR_05,Foot Over Bridge,FOB,18:16:40,crowd_density_high,high,chaotic,police_vehicle,high,0.93
+CAM_JPR_20,Metro Entry Gate,Metro,18:16:48,normal_activity,medium,increasing,none,high,0.89
+CAM_JPR_07,Foot Over Bridge,FOB,18:16:56,loitering_detected,high,static,none,medium,0.84
+CAM_JPR_20,Parking Area,Parking,18:17:04,normal_activity,high,increasing,fallen_person,critical,0.95
+CAM_JPR_04,Platform 3,Platform,18:17:12,normal_activity,medium,chaotic,barricade,critical,0.96
+CAM_JPR_09,Jaipur Junction Main Gate,Entry,18:17:20,normal_activity,critical,normal,none,high,0.88
+CAM_JPR_15,Foot Over Bridge,FOB,18:17:28,crowd_gathering,high,erratic,none,low,0.86
+CAM_JPR_17,Bus Stand Side,Transit,18:17:36,crowd_density_critical,critical,increasing_fast,bag,high,0.95
+CAM_JPR_18,Platform 1,Platform,18:17:44,crowd_density_high,high,normal,fire_smoke,critical,0.94
+CAM_JPR_10,Jaipur Junction Main Gate,Entry,18:17:52,vehicle_congestion,medium,increasing,police_vehicle,high,0.83
+CAM_JPR_14,Platform 3,Platform,18:18:00,stampede_risk_detected,low,chaotic,bag,critical,0.84
+CAM_JPR_04,Jaipur Junction Main Gate,Entry,18:18:08,panic_movement_detected,high,slow,barricade,critical,0.8
+CAM_JPR_16,Bus Stand Side,Transit,18:18:16,loitering_detected,low,outward_flow,fire_smoke,medium,0.97
+CAM_JPR_03,Platform 1,Platform,18:18:24,normal_activity,medium,outward_flow,none,low,0.96
+CAM_JPR_01,Jaipur Junction Main Gate,Entry,18:18:32,normal_activity,low,outward_flow,none,high,0.8
+CAM_JPR_13,Platform 3,Platform,18:18:40,crowd_gathering,critical,normal,bag,high,0.92
+CAM_JPR_01,Parking Area,Parking,18:18:48,normal_activity,high,normal,police_vehicle,high,0.87
+CAM_JPR_05,Foot Over Bridge,FOB,18:18:56,emergency_corridor_blocked,low,increasing,fallen_person,high,0.8
+CAM_JPR_18,Platform 1,Platform,18:19:04,stampede_risk_detected,medium,static,none,high,0.94
+CAM_JPR_18,Platform 2,Platform,18:19:12,crowd_density_high,medium,increasing_fast,fire_smoke,low,0.96
+CAM_JPR_18,Platform 2,Platform,18:19:20,abnormal_movement,low,erratic,bag,low,0.88
+CAM_JPR_18,Platform 2,Platform,18:19:28,crowd_spillover_detected,low,chaotic,police_vehicle,low,0.84
+CAM_JPR_14,Parking Area,Parking,18:19:36,normal_activity,low,slow,fire_smoke,medium,0.96
+CAM_JPR_02,Parking Area,Parking,18:19:44,crowd_density_critical,critical,increasing_fast,fallen_person,low,0.95
+CAM_JPR_09,Foot Over Bridge,FOB,18:19:52,normal_activity,high,increasing_fast,none,low,0.87
+CAM_JPR_08,Jaipur Junction Main Gate,Entry,18:20:00,vehicle_congestion,medium,erratic,police_vehicle,critical,0.86
+CAM_JPR_03,Metro Entry Gate,Metro,18:20:08,normal_activity,critical,erratic,bag,medium,0.93
+CAM_JPR_06,Jaipur Junction Main Gate,Entry,18:20:16,crowd_density_high,low,increasing_fast,fallen_person,critical,0.99
+CAM_JPR_09,Parking Area,Parking,18:20:24,stampede_risk_detected,very_high,chaotic,none,medium,0.98
+CAM_JPR_16,Bus Stand Side,Transit,18:20:32,crowd_gathering,critical,normal,fire_smoke,high,0.83
+CAM_JPR_04,Platform 1,Platform,18:20:40,abnormal_movement,medium,static,police_vehicle,critical,0.92
+CAM_JPR_04,Platform 3,Platform,18:20:48,normal_activity,very_high,normal,barricade,high,0.97
+CAM_JPR_08,Parking Area,Parking,18:20:56,loitering_detected,medium,slow,fire_smoke,high,0.83
+CAM_JPR_05,Foot Over Bridge,FOB,18:21:04,emergency_corridor_blocked,low,slow,bag,medium,0.88
+CAM_JPR_15,Parking Area,Parking,18:21:12,crowd_spillover_detected,very_high,increasing_fast,police_vehicle,high,0.85
+CAM_JPR_03,Platform 2,Platform,18:21:20,abnormal_movement,critical,static,police_vehicle,low,0.97
+CAM_JPR_20,Foot Over Bridge,FOB,18:21:28,normal_activity,high,slow,police_vehicle,medium,0.84
+CAM_JPR_11,Metro Entry Gate,Metro,18:21:36,panic_movement_detected,critical,static,barricade,high,0.89
+CAM_JPR_02,Bus Stand Side,Transit,18:21:44,panic_movement_detected,low,erratic,fire_smoke,high,0.87
+CAM_JPR_18,Platform 3,Platform,18:21:52,loitering_detected,very_high,chaotic,none,critical,0.84
+CAM_JPR_10,Foot Over Bridge,FOB,18:22:00,vehicle_congestion,very_high,increasing_fast,barricade,high,0.9
+CAM_JPR_15,Platform 3,Platform,18:22:08,crowd_density_critical,very_high,slow,fallen_person,high,0.96
+CAM_JPR_08,Metro Entry Gate,Metro,18:22:16,normal_activity,very_high,outward_flow,fallen_person,low,0.94
+CAM_JPR_09,Platform 1,Platform,18:22:24,panic_movement_detected,critical,increasing_fast,fallen_person,low,0.98
+CAM_JPR_08,Bus Stand Side,Transit,18:22:32,normal_activity,high,normal,fallen_person,medium,0.83
+CAM_JPR_03,Parking Area,Parking,18:22:40,stampede_risk_detected,medium,increasing,fire_smoke,medium,0.89
+CAM_JPR_15,Platform 2,Platform,18:22:48,crowd_density_high,very_high,erratic,none,medium,0.89
+CAM_JPR_02,Bus Stand Side,Transit,18:22:56,abnormal_movement,very_high,static,barricade,low,0.88
+CAM_JPR_01,Platform 3,Platform,18:23:04,normal_activity,medium,normal,barricade,low,0.93
+CAM_JPR_16,Platform 2,Platform,18:23:12,crowd_spillover_detected,low,static,bag,low,0.96
+CAM_JPR_04,Platform 2,Platform,18:23:20,stampede_risk_detected,medium,normal,fallen_person,high,0.86
+CAM_JPR_01,Platform 3,Platform,18:23:28,panic_movement_detected,high,increasing_fast,fire_smoke,low,0.83
+CAM_JPR_20,Parking Area,Parking,18:23:36,emergency_corridor_blocked,low,chaotic,fire_smoke,critical,0.97
+CAM_JPR_13,Bus Stand Side,Transit,18:23:44,abnormal_movement,critical,increasing,fallen_person,low,0.93
+CAM_JPR_04,Bus Stand Side,Transit,18:23:52,loitering_detected,medium,outward_flow,fallen_person,high,0.92
+CAM_JPR_01,Platform 2,Platform,18:24:00,panic_movement_detected,low,outward_flow,barricade,medium,0.83
+CAM_JPR_14,Parking Area,Parking,18:24:08,crowd_spillover_detected,high,increasing_fast,fire_smoke,critical,0.82
+CAM_JPR_02,Platform 3,Platform,18:24:16,vehicle_congestion,medium,outward_flow,none,medium,0.85
+CAM_JPR_09,Platform 1,Platform,18:24:24,panic_movement_detected,critical,chaotic,fallen_person,low,0.96
+CAM_JPR_07,Platform 2,Platform,18:24:32,loitering_detected,low,outward_flow,bag,medium,0.88
+CAM_JPR_08,Parking Area,Parking,18:24:40,abnormal_movement,low,normal,bag,high,0.86
+CAM_JPR_18,Platform 2,Platform,18:24:48,emergency_corridor_blocked,critical,outward_flow,police_vehicle,low,0.98
+CAM_JPR_17,Platform 3,Platform,18:24:56,crowd_density_critical,low,outward_flow,fallen_person,high,0.93
+CAM_JPR_19,Metro Entry Gate,Metro,18:25:04,panic_movement_detected,critical,static,barricade,high,0.85
+CAM_JPR_20,Parking Area,Parking,18:25:12,crowd_gathering,high,slow,police_vehicle,critical,0.94
+CAM_JPR_03,Platform 2,Platform,18:25:20,crowd_spillover_detected,very_high,increasing_fast,none,low,0.91
+CAM_JPR_17,Foot Over Bridge,FOB,18:25:28,vehicle_congestion,low,increasing_fast,fire_smoke,high,0.89
+CAM_JPR_18,Metro Entry Gate,Metro,18:25:36,panic_movement_detected,medium,increasing_fast,fire_smoke,medium,0.85
+CAM_JPR_13,Platform 2,Platform,18:25:44,panic_movement_detected,high,normal,fallen_person,high,0.86
+CAM_JPR_13,Bus Stand Side,Transit,18:25:52,crowd_density_critical,medium,outward_flow,none,high,0.82
+CAM_JPR_04,Bus Stand Side,Transit,18:26:00,crowd_spillover_detected,low,slow,police_vehicle,low,0.88
+CAM_JPR_09,Bus Stand Side,Transit,18:26:08,abnormal_movement,critical,static,fallen_person,low,0.95
+CAM_JPR_17,Foot Over Bridge,FOB,18:26:16,panic_movement_detected,high,slow,fallen_person,high,0.95
+CAM_JPR_20,Bus Stand Side,Transit,18:26:24,emergency_corridor_blocked,high,increasing,barricade,medium,0.94
+CAM_JPR_15,Bus Stand Side,Transit,18:26:32,panic_movement_detected,medium,outward_flow,bag,low,0.87
+CAM_JPR_08,Bus Stand Side,Transit,18:26:40,crowd_density_critical,very_high,normal,fire_smoke,critical,0.92
+CAM_JPR_03,Bus Stand Side,Transit,18:26:48,stampede_risk_detected,very_high,normal,fire_smoke,medium,0.82
+CAM_JPR_14,Jaipur Junction Main Gate,Entry,18:26:56,crowd_gathering,medium,outward_flow,barricade,high,0.8
+CAM_JPR_09,Foot Over Bridge,FOB,18:27:04,vehicle_congestion,critical,increasing,police_vehicle,low,0.88
+CAM_JPR_09,Parking Area,Parking,18:27:12,panic_movement_detected,very_high,normal,barricade,low,0.82
+CAM_JPR_18,Metro Entry Gate,Metro,18:27:20,crowd_spillover_detected,high,chaotic,bag,critical,0.98
+CAM_JPR_12,Foot Over Bridge,FOB,18:27:28,crowd_density_high,medium,outward_flow,barricade,critical,0.94
+CAM_JPR_10,Platform 1,Platform,18:27:36,crowd_gathering,critical,outward_flow,fire_smoke,medium,0.98
+CAM_JPR_05,Platform 1,Platform,18:27:44,crowd_spillover_detected,high,normal,fallen_person,medium,0.81
+CAM_JPR_10,Jaipur Junction Main Gate,Entry,18:27:52,crowd_density_critical,critical,outward_flow,fire_smoke,low,0.98
+CAM_JPR_04,Platform 2,Platform,18:28:00,panic_movement_detected,low,chaotic,police_vehicle,medium,0.86
+CAM_JPR_13,Platform 1,Platform,18:28:08,panic_movement_detected,medium,increasing_fast,police_vehicle,high,0.89
+CAM_JPR_19,Jaipur Junction Main Gate,Entry,18:28:16,abnormal_movement,low,chaotic,bag,medium,0.95
+CAM_JPR_20,Platform 1,Platform,18:28:24,emergency_corridor_blocked,high,slow,bag,critical,0.86
+CAM_JPR_07,Platform 2,Platform,18:28:32,crowd_density_high,high,normal,police_vehicle,high,0.9
+CAM_JPR_14,Platform 1,Platform,18:28:40,crowd_gathering,critical,chaotic,none,medium,0.88
+CAM_JPR_09,Parking Area,Parking,18:28:48,loitering_detected,low,static,bag,critical,0.89
+CAM_JPR_19,Platform 3,Platform,18:28:56,crowd_gathering,high,slow,fallen_person,high,0.85
+CAM_JPR_18,Jaipur Junction Main Gate,Entry,18:29:04,crowd_density_critical,very_high,slow,police_vehicle,medium,0.96
+CAM_JPR_17,Metro Entry Gate,Metro,18:29:12,normal_activity,very_high,normal,bag,critical,0.84
+CAM_JPR_10,Platform 1,Platform,18:29:20,vehicle_congestion,medium,slow,police_vehicle,critical,0.88
+CAM_JPR_20,Metro Entry Gate,Metro,18:29:28,crowd_density_critical,very_high,slow,police_vehicle,critical,0.91
+CAM_JPR_16,Jaipur Junction Main Gate,Entry,18:29:36,stampede_risk_detected,very_high,increasing,fire_smoke,low,0.84
+CAM_JPR_14,Foot Over Bridge,FOB,18:29:44,loitering_detected,critical,increasing,fallen_person,high,0.95
+CAM_JPR_10,Bus Stand Side,Transit,18:29:52,crowd_gathering,very_high,chaotic,police_vehicle,critical,0.96
+CAM_JPR_19,Parking Area,Parking,18:30:00,emergency_corridor_blocked,low,chaotic,bag,high,0.95
+CAM_JPR_01,Jaipur Junction Main Gate,Entry,18:30:08,vehicle_congestion,medium,chaotic,barricade,high,0.98
+CAM_JPR_13,Jaipur Junction Main Gate,Entry,18:30:16,vehicle_congestion,low,chaotic,police_vehicle,medium,0.89
+CAM_JPR_18,Platform 1,Platform,18:30:24,vehicle_congestion,critical,static,police_vehicle,high,0.87
+CAM_JPR_17,Platform 3,Platform,18:30:32,loitering_detected,critical,erratic,none,low,0.84
+CAM_JPR_09,Parking Area,Parking,18:30:40,crowd_density_critical,very_high,increasing,barricade,high,0.91
+CAM_JPR_17,Parking Area,Parking,18:30:48,crowd_gathering,critical,increasing,fire_smoke,critical,0.94
+CAM_JPR_10,Bus Stand Side,Transit,18:30:56,crowd_density_high,very_high,outward_flow,fallen_person,high,0.94
+CAM_JPR_13,Platform 3,Platform,18:31:04,abnormal_movement,low,static,barricade,low,0.99
+CAM_JPR_06,Platform 3,Platform,18:31:12,abnormal_movement,high,erratic,barricade,medium,0.86
+CAM_JPR_17,Platform 3,Platform,18:31:20,crowd_density_critical,medium,erratic,barricade,high,0.97
+CAM_JPR_06,Parking Area,Parking,18:31:28,loitering_detected,very_high,static,bag,critical,0.81
+CAM_JPR_18,Platform 3,Platform,18:31:36,crowd_gathering,high,increasing_fast,fallen_person,low,0.85
+CAM_JPR_16,Bus Stand Side,Transit,18:31:44,crowd_spillover_detected,medium,outward_flow,bag,critical,0.91
+CAM_JPR_03,Platform 1,Platform,18:31:52,crowd_density_critical,very_high,static,none,low,0.94
+CAM_JPR_04,Jaipur Junction Main Gate,Entry,18:32:00,emergency_corridor_blocked,very_high,static,bag,medium,0.95
+CAM_JPR_15,Parking Area,Parking,18:32:08,crowd_density_critical,high,slow,barricade,medium,0.95
+CAM_JPR_20,Foot Over Bridge,FOB,18:32:16,stampede_risk_detected,low,outward_flow,barricade,low,0.98
+CAM_JPR_09,Foot Over Bridge,FOB,18:32:24,crowd_spillover_detected,very_high,increasing_fast,fire_smoke,high,0.81
+CAM_JPR_02,Platform 2,Platform,18:32:32,crowd_density_critical,medium,slow,none,medium,0.93
+CAM_JPR_17,Parking Area,Parking,18:32:40,abnormal_movement,very_high,normal,barricade,low,0.95
+CAM_JPR_03,Platform 3,Platform,18:32:48,panic_movement_detected,very_high,normal,barricade,low,0.97
+CAM_JPR_12,Platform 1,Platform,18:32:56,crowd_spillover_detected,critical,normal,bag,high,0.97
+CAM_JPR_07,Foot Over Bridge,FOB,18:33:04,panic_movement_detected,critical,static,fire_smoke,high,0.9
+CAM_JPR_07,Bus Stand Side,Transit,18:33:12,normal_activity,critical,normal,police_vehicle,critical,0.88
+CAM_JPR_10,Metro Entry Gate,Metro,18:33:20,emergency_corridor_blocked,high,normal,fire_smoke,high,0.81
+CAM_JPR_15,Parking Area,Parking,18:33:28,crowd_spillover_detected,high,slow,police_vehicle,medium,0.86
+CAM_JPR_16,Bus Stand Side,Transit,18:33:36,abnormal_movement,high,slow,police_vehicle,low,0.91
+CAM_JPR_04,Metro Entry Gate,Metro,18:33:44,crowd_gathering,medium,outward_flow,fire_smoke,critical,0.81
+CAM_JPR_09,Jaipur Junction Main Gate,Entry,18:33:52,abnormal_movement,high,slow,bag,low,0.87
+CAM_JPR_13,Platform 1,Platform,18:34:00,crowd_gathering,critical,static,fire_smoke,critical,0.94
+CAM_JPR_05,Foot Over Bridge,FOB,18:34:08,crowd_density_critical,medium,slow,barricade,low,0.9
+CAM_JPR_18,Platform 1,Platform,18:34:16,loitering_detected,low,increasing_fast,barricade,high,0.97
+CAM_JPR_15,Foot Over Bridge,FOB,18:34:24,vehicle_congestion,very_high,erratic,barricade,low,0.86
+CAM_JPR_20,Platform 2,Platform,18:34:32,emergency_corridor_blocked,critical,normal,none,critical,0.95
+CAM_JPR_02,Foot Over Bridge,FOB,18:34:40,crowd_gathering,high,static,none,low,0.91
+CAM_JPR_13,Platform 1,Platform,18:34:48,crowd_density_high,critical,slow,fire_smoke,medium,0.86
+CAM_JPR_20,Metro Entry Gate,Metro,18:34:56,abnormal_movement,critical,slow,bag,critical,0.93
+CAM_JPR_04,Jaipur Junction Main Gate,Entry,18:35:04,panic_movement_detected,high,increasing_fast,none,critical,0.83
+CAM_JPR_06,Platform 1,Platform,18:35:12,stampede_risk_detected,critical,increasing_fast,barricade,critical,0.81
+CAM_JPR_18,Platform 1,Platform,18:35:20,abnormal_movement,medium,normal,none,high,0.86
+CAM_JPR_15,Foot Over Bridge,FOB,18:35:28,emergency_corridor_blocked,high,increasing,fallen_person,high,0.85
+CAM_JPR_10,Platform 1,Platform,18:35:36,crowd_gathering,medium,normal,none,high,0.85
+CAM_JPR_12,Parking Area,Parking,18:35:44,normal_activity,medium,normal,fallen_person,high,0.96
+CAM_JPR_16,Platform 3,Platform,18:35:52,crowd_gathering,critical,normal,none,low,0.87
+CAM_JPR_18,Metro Entry Gate,Metro,18:36:00,crowd_density_high,critical,increasing_fast,fallen_person,critical,0.83
+CAM_JPR_18,Foot Over Bridge,FOB,18:36:08,emergency_corridor_blocked,very_high,slow,bag,medium,0.83
+CAM_JPR_10,Jaipur Junction Main Gate,Entry,18:36:16,vehicle_congestion,low,erratic,fire_smoke,high,0.86
+CAM_JPR_14,Jaipur Junction Main Gate,Entry,18:36:24,crowd_density_high,low,slow,barricade,high,0.81
+CAM_JPR_03,Parking Area,Parking,18:36:32,vehicle_congestion,low,normal,none,high,0.9
+CAM_JPR_06,Metro Entry Gate,Metro,18:36:40,panic_movement_detected,high,erratic,none,medium,0.94
+CAM_JPR_04,Foot Over Bridge,FOB,18:36:48,crowd_density_critical,critical,static,none,critical,0.9
+CAM_JPR_11,Platform 1,Platform,18:36:56,loitering_detected,high,erratic,bag,low,0.98
+CAM_JPR_17,Metro Entry Gate,Metro,18:37:04,crowd_density_critical,low,outward_flow,bag,high,0.94
+CAM_JPR_12,Platform 1,Platform,18:37:12,normal_activity,critical,normal,police_vehicle,critical,0.82
+CAM_JPR_03,Jaipur Junction Main Gate,Entry,18:37:20,emergency_corridor_blocked,critical,normal,fallen_person,low,0.92
+CAM_JPR_09,Foot Over Bridge,FOB,18:37:28,emergency_corridor_blocked,high,outward_flow,fallen_person,low,0.91
+CAM_JPR_11,Bus Stand Side,Transit,18:37:36,crowd_density_critical,very_high,chaotic,none,low,0.89
+CAM_JPR_19,Platform 1,Platform,18:37:44,crowd_spillover_detected,low,chaotic,fire_smoke,low,0.99
+CAM_JPR_02,Jaipur Junction Main Gate,Entry,18:37:52,normal_activity,low,increasing_fast,barricade,low,0.81
+CAM_JPR_04,Metro Entry Gate,Metro,18:38:00,crowd_spillover_detected,low,normal,bag,medium,0.94
+CAM_JPR_10,Parking Area,Parking,18:38:08,panic_movement_detected,critical,slow,fire_smoke,high,0.81
+CAM_JPR_20,Parking Area,Parking,18:38:16,crowd_density_critical,very_high,normal,fallen_person,critical,0.95
+CAM_JPR_11,Parking Area,Parking,18:38:24,crowd_spillover_detected,high,increasing_fast,police_vehicle,medium,0.98
+CAM_JPR_17,Metro Entry Gate,Metro,18:38:32,crowd_spillover_detected,low,erratic,fallen_person,critical,0.95
+CAM_JPR_14,Parking Area,Parking,18:38:40,loitering_detected,low,slow,bag,high,0.83
+CAM_JPR_12,Parking Area,Parking,18:38:48,stampede_risk_detected,high,normal,police_vehicle,critical,0.95
+CAM_JPR_11,Jaipur Junction Main Gate,Entry,18:38:56,crowd_gathering,critical,increasing_fast,fallen_person,high,0.84
+CAM_JPR_04,Platform 2,Platform,18:39:04,crowd_density_critical,medium,outward_flow,police_vehicle,medium,0.86
+CAM_JPR_04,Platform 1,Platform,18:39:12,loitering_detected,low,normal,fire_smoke,high,0.85
+CAM_JPR_08,Parking Area,Parking,18:39:20,crowd_density_high,medium,normal,none,critical,0.92
+CAM_JPR_08,Platform 3,Platform,18:39:28,emergency_corridor_blocked,very_high,static,police_vehicle,medium,0.98
+CAM_JPR_14,Jaipur Junction Main Gate,Entry,18:39:36,emergency_corridor_blocked,high,static,fire_smoke,critical,0.98
+CAM_JPR_11,Metro Entry Gate,Metro,18:39:44,crowd_density_critical,critical,increasing_fast,barricade,medium,0.86
+CAM_JPR_14,Foot Over Bridge,FOB,18:39:52,crowd_gathering,critical,static,bag,high,0.88
+CAM_JPR_01,Metro Entry Gate,Metro,18:40:00,panic_movement_detected,high,erratic,fallen_person,high,0.81
+CAM_JPR_19,Foot Over Bridge,FOB,18:40:08,stampede_risk_detected,critical,static,bag,medium,0.8
+CAM_JPR_12,Bus Stand Side,Transit,18:40:16,crowd_density_critical,critical,static,police_vehicle,high,0.92
+CAM_JPR_15,Jaipur Junction Main Gate,Entry,18:40:24,crowd_spillover_detected,medium,increasing,barricade,medium,0.97
+CAM_JPR_03,Platform 3,Platform,18:40:32,emergency_corridor_blocked,critical,static,none,high,0.94
+CAM_JPR_08,Platform 1,Platform,18:40:40,crowd_density_high,very_high,increasing_fast,barricade,low,0.82
+CAM_JPR_04,Platform 2,Platform,18:40:48,vehicle_congestion,medium,normal,police_vehicle,medium,0.83
+CAM_JPR_18,Platform 1,Platform,18:40:56,emergency_corridor_blocked,low,increasing_fast,barricade,low,0.92
+CAM_JPR_17,Platform 2,Platform,18:41:04,panic_movement_detected,critical,static,police_vehicle,medium,0.85
+CAM_JPR_18,Metro Entry Gate,Metro,18:41:12,crowd_gathering,low,slow,police_vehicle,low,0.96
+CAM_JPR_01,Platform 1,Platform,18:41:20,abnormal_movement,critical,outward_flow,barricade,low,0.94
+CAM_JPR_07,Foot Over Bridge,FOB,18:41:28,vehicle_congestion,very_high,static,police_vehicle,high,0.87
+CAM_JPR_16,Platform 1,Platform,18:41:36,crowd_gathering,medium,static,bag,critical,0.96
+CAM_JPR_06,Platform 2,Platform,18:41:44,loitering_detected,high,chaotic,bag,low,0.82
+CAM_JPR_16,Platform 3,Platform,18:41:52,normal_activity,very_high,increasing_fast,fallen_person,low,0.97
+CAM_JPR_19,Foot Over Bridge,FOB,18:42:00,normal_activity,high,static,bag,low,0.95
+CAM_JPR_06,Jaipur Junction Main Gate,Entry,18:42:08,stampede_risk_detected,low,normal,bag,high,0.83
+CAM_JPR_17,Metro Entry Gate,Metro,18:42:16,emergency_corridor_blocked,very_high,increasing,bag,high,0.84
+CAM_JPR_09,Platform 3,Platform,18:42:24,vehicle_congestion,low,normal,barricade,critical,0.93
+CAM_JPR_03,Platform 3,Platform,18:42:32,crowd_spillover_detected,critical,increasing_fast,fallen_person,critical,0.95
+CAM_JPR_05,Metro Entry Gate,Metro,18:42:40,abnormal_movement,very_high,increasing,barricade,medium,0.81
+CAM_JPR_19,Foot Over Bridge,FOB,18:42:48,crowd_density_high,medium,outward_flow,bag,critical,0.81
+CAM_JPR_13,Bus Stand Side,Transit,18:42:56,vehicle_congestion,very_high,erratic,bag,low,0.83
+CAM_JPR_07,Platform 3,Platform,18:43:04,emergency_corridor_blocked,critical,increasing,fire_smoke,medium,0.99
+CAM_JPR_10,Platform 1,Platform,18:43:12,emergency_corridor_blocked,medium,chaotic,fallen_person,high,0.84
+CAM_JPR_06,Parking Area,Parking,18:43:20,vehicle_congestion,critical,increasing,bag,critical,0.9
+CAM_JPR_09,Parking Area,Parking,18:43:28,panic_movement_detected,medium,outward_flow,barricade,high,0.84
+CAM_JPR_09,Platform 1,Platform,18:43:36,abnormal_movement,high,normal,fallen_person,medium,0.96
+CAM_JPR_03,Foot Over Bridge,FOB,18:43:44,normal_activity,very_high,outward_flow,bag,high,0.9
+CAM_JPR_16,Platform 3,Platform,18:43:52,crowd_density_high,critical,outward_flow,fire_smoke,medium,0.99
+CAM_JPR_04,Jaipur Junction Main Gate,Entry,18:44:00,panic_movement_detected,critical,normal,police_vehicle,medium,0.92
+CAM_JPR_16,Platform 2,Platform,18:44:08,crowd_density_critical,low,slow,fire_smoke,medium,0.89
+CAM_JPR_19,Bus Stand Side,Transit,18:44:16,emergency_corridor_blocked,medium,normal,fallen_person,critical,0.82
+CAM_JPR_05,Foot Over Bridge,FOB,18:44:24,crowd_spillover_detected,critical,static,police_vehicle,high,0.82
+CAM_JPR_04,Metro Entry Gate,Metro,18:44:32,panic_movement_detected,critical,increasing,barricade,high,0.81
+CAM_JPR_01,Platform 3,Platform,18:44:40,crowd_gathering,critical,normal,bag,high,0.87
+CAM_JPR_08,Platform 2,Platform,18:44:48,stampede_risk_detected,low,normal,none,critical,0.87
+CAM_JPR_05,Parking Area,Parking,18:44:56,crowd_density_critical,very_high,normal,fire_smoke,medium,0.87
+CAM_JPR_06,Jaipur Junction Main Gate,Entry,18:45:04,abnormal_movement,medium,outward_flow,none,low,0.97
+CAM_JPR_14,Platform 3,Platform,18:45:12,crowd_density_critical,low,outward_flow,none,medium,0.82
+CAM_JPR_05,Platform 3,Platform,18:45:20,crowd_density_high,very_high,static,bag,medium,0.88
+CAM_JPR_17,Platform 1,Platform,18:45:28,crowd_gathering,critical,erratic,bag,high,0.81
+CAM_JPR_15,Platform 1,Platform,18:45:36,crowd_density_critical,low,erratic,police_vehicle,high,0.89
+CAM_JPR_10,Platform 3,Platform,18:45:44,emergency_corridor_blocked,low,outward_flow,police_vehicle,medium,0.82
+CAM_JPR_02,Bus Stand Side,Transit,18:45:52,vehicle_congestion,medium,slow,fire_smoke,medium,0.93
+CAM_JPR_15,Bus Stand Side,Transit,18:46:00,vehicle_congestion,low,erratic,bag,medium,0.92
+CAM_JPR_16,Bus Stand Side,Transit,18:46:08,panic_movement_detected,critical,slow,none,low,0.86
+CAM_JPR_14,Foot Over Bridge,FOB,18:46:16,normal_activity,high,increasing,police_vehicle,critical,0.86
+CAM_JPR_14,Bus Stand Side,Transit,18:46:24,crowd_density_high,very_high,increasing,fire_smoke,critical,0.96
+CAM_JPR_15,Metro Entry Gate,Metro,18:46:32,crowd_density_critical,critical,increasing,fire_smoke,low,0.9
+CAM_JPR_15,Jaipur Junction Main Gate,Entry,18:46:40,loitering_detected,high,chaotic,barricade,medium,0.91
+CAM_JPR_17,Platform 2,Platform,18:46:48,stampede_risk_detected,high,normal,bag,low,0.87
+CAM_JPR_09,Platform 1,Platform,18:46:56,crowd_density_high,very_high,increasing,fire_smoke,critical,0.89
+CAM_JPR_05,Foot Over Bridge,FOB,18:47:04,crowd_density_critical,medium,outward_flow,none,critical,0.94
+CAM_JPR_12,Platform 2,Platform,18:47:12,abnormal_movement,high,increasing_fast,none,medium,0.94
+CAM_JPR_18,Metro Entry Gate,Metro,18:47:20,abnormal_movement,very_high,static,barricade,critical,0.81
+CAM_JPR_13,Platform 3,Platform,18:47:28,crowd_density_critical,critical,outward_flow,fire_smoke,critical,0.95
+CAM_JPR_08,Bus Stand Side,Transit,18:47:36,emergency_corridor_blocked,low,erratic,fire_smoke,high,0.85
+CAM_JPR_10,Bus Stand Side,Transit,18:47:44,loitering_detected,critical,slow,fire_smoke,high,0.9
+CAM_JPR_11,Platform 2,Platform,18:47:52,vehicle_congestion,medium,normal,none,high,0.83
+CAM_JPR_10,Jaipur Junction Main Gate,Entry,18:48:00,panic_movement_detected,very_high,outward_flow,police_vehicle,medium,0.82
+CAM_JPR_18,Platform 1,Platform,18:48:08,abnormal_movement,low,outward_flow,barricade,critical,0.95
+CAM_JPR_19,Platform 2,Platform,18:48:16,panic_movement_detected,very_high,outward_flow,fallen_person,critical,0.83
+CAM_JPR_20,Platform 3,Platform,18:48:24,panic_movement_detected,very_high,outward_flow,none,high,0.96
+CAM_JPR_15,Metro Entry Gate,Metro,18:48:32,crowd_spillover_detected,critical,erratic,fire_smoke,critical,0.83
+CAM_JPR_08,Bus Stand Side,Transit,18:48:40,crowd_gathering,medium,static,fire_smoke,critical,0.86
+CAM_JPR_07,Parking Area,Parking,18:48:48,emergency_corridor_blocked,low,outward_flow,none,critical,0.83
+CAM_JPR_07,Foot Over Bridge,FOB,18:48:56,crowd_density_critical,high,increasing,barricade,medium,0.86
+CAM_JPR_12,Platform 1,Platform,18:49:04,abnormal_movement,low,outward_flow,bag,high,0.82
+CAM_JPR_09,Platform 1,Platform,18:49:12,vehicle_congestion,critical,slow,police_vehicle,critical,0.94
+CAM_JPR_10,Parking Area,Parking,18:49:20,vehicle_congestion,low,outward_flow,bag,critical,0.99
+CAM_JPR_11,Platform 1,Platform,18:49:28,emergency_corridor_blocked,critical,erratic,barricade,high,0.91
+CAM_JPR_06,Jaipur Junction Main Gate,Entry,18:49:36,stampede_risk_detected,critical,static,barricade,high,0.97
+CAM_JPR_19,Platform 3,Platform,18:49:44,loitering_detected,high,static,fire_smoke,critical,0.99
+CAM_JPR_08,Bus Stand Side,Transit,18:49:52,normal_activity,medium,increasing_fast,none,medium,0.94
+CAM_JPR_13,Parking Area,Parking,18:50:00,crowd_spillover_detected,medium,chaotic,police_vehicle,low,0.96
+CAM_JPR_18,Foot Over Bridge,FOB,18:50:08,emergency_corridor_blocked,low,increasing,bag,low,0.93
+CAM_JPR_07,Platform 1,Platform,18:50:16,crowd_density_critical,high,increasing,fallen_person,medium,0.92
+CAM_JPR_18,Metro Entry Gate,Metro,18:50:24,abnormal_movement,high,outward_flow,bag,critical,0.83
+CAM_JPR_18,Platform 1,Platform,18:50:32,panic_movement_detected,low,increasing,fire_smoke,low,0.96
+CAM_JPR_08,Bus Stand Side,Transit,18:50:40,crowd_spillover_detected,medium,increasing,none,critical,0.88
+CAM_JPR_10,Jaipur Junction Main Gate,Entry,18:50:48,emergency_corridor_blocked,very_high,static,barricade,high,0.92
+CAM_JPR_04,Platform 2,Platform,18:50:56,loitering_detected,high,chaotic,fallen_person,critical,0.84
+CAM_JPR_05,Parking Area,Parking,18:51:04,loitering_detected,low,normal,fire_smoke,high,0.93
+CAM_JPR_11,Platform 3,Platform,18:51:12,emergency_corridor_blocked,medium,normal,none,high,0.86
+CAM_JPR_20,Foot Over Bridge,FOB,18:51:20,normal_activity,medium,increasing_fast,none,high,0.83
+CAM_JPR_08,Platform 2,Platform,18:51:28,normal_activity,high,normal,police_vehicle,low,0.81
+CAM_JPR_11,Bus Stand Side,Transit,18:51:36,crowd_spillover_detected,medium,increasing_fast,bag,critical,0.81
+CAM_JPR_13,Metro Entry Gate,Metro,18:51:44,crowd_density_critical,low,outward_flow,barricade,high,0.95
+CAM_JPR_12,Bus Stand Side,Transit,18:51:52,normal_activity,high,increasing_fast,none,medium,0.87
+CAM_JPR_11,Bus Stand Side,Transit,18:52:00,panic_movement_detected,critical,static,bag,low,0.94
+CAM_JPR_13,Bus Stand Side,Transit,18:52:08,crowd_spillover_detected,low,normal,fire_smoke,critical,0.98
+CAM_JPR_01,Platform 2,Platform,18:52:16,panic_movement_detected,very_high,chaotic,fallen_person,medium,0.84
+CAM_JPR_16,Foot Over Bridge,FOB,18:52:24,panic_movement_detected,high,increasing,barricade,high,0.94
+CAM_JPR_14,Bus Stand Side,Transit,18:52:32,stampede_risk_detected,low,erratic,fallen_person,medium,0.95
+CAM_JPR_10,Foot Over Bridge,FOB,18:52:40,normal_activity,very_high,static,bag,medium,0.85
+CAM_JPR_14,Foot Over Bridge,FOB,18:52:48,emergency_corridor_blocked,medium,chaotic,none,medium,0.92
+CAM_JPR_17,Platform 2,Platform,18:52:56,emergency_corridor_blocked,very_high,increasing_fast,fallen_person,high,0.84
+CAM_JPR_03,Platform 1,Platform,18:53:04,loitering_detected,very_high,outward_flow,none,critical,0.8
+CAM_JPR_13,Jaipur Junction Main Gate,Entry,18:53:12,vehicle_congestion,low,increasing,none,low,0.84
+CAM_JPR_13,Platform 3,Platform,18:53:20,abnormal_movement,low,increasing,fire_smoke,critical,0.94
+CAM_JPR_08,Bus Stand Side,Transit,18:53:28,crowd_spillover_detected,medium,normal,barricade,low,0.98
+CAM_JPR_06,Platform 2,Platform,18:53:36,abnormal_movement,high,normal,police_vehicle,medium,0.98
+CAM_JPR_19,Platform 2,Platform,18:53:44,crowd_density_critical,critical,static,barricade,medium,0.96
+CAM_JPR_09,Bus Stand Side,Transit,18:53:52,stampede_risk_detected,high,slow,fire_smoke,medium,0.95
+CAM_JPR_04,Platform 3,Platform,18:54:00,crowd_density_high,critical,static,bag,critical,0.84
+CAM_JPR_14,Metro Entry Gate,Metro,18:54:08,loitering_detected,very_high,slow,police_vehicle,critical,0.91
+CAM_JPR_19,Platform 3,Platform,18:54:16,panic_movement_detected,very_high,slow,fallen_person,medium,0.89
+CAM_JPR_15,Bus Stand Side,Transit,18:54:24,crowd_density_high,critical,chaotic,police_vehicle,low,0.81
+CAM_JPR_18,Bus Stand Side,Transit,18:54:32,loitering_detected,critical,increasing_fast,fallen_person,low,0.82
+CAM_JPR_09,Metro Entry Gate,Metro,18:54:40,normal_activity,medium,static,barricade,low,0.95
+CAM_JPR_17,Bus Stand Side,Transit,18:54:48,loitering_detected,low,outward_flow,fire_smoke,low,0.85
+CAM_JPR_09,Bus Stand Side,Transit,18:54:56,crowd_spillover_detected,low,normal,fire_smoke,low,0.88
+CAM_JPR_10,Parking Area,Parking,18:55:04,stampede_risk_detected,medium,static,none,low,0.94
+CAM_JPR_03,Platform 1,Platform,18:55:12,crowd_density_high,critical,erratic,none,critical,0.88
+CAM_JPR_05,Platform 2,Platform,18:55:20,stampede_risk_detected,low,static,fire_smoke,low,0.8
+CAM_JPR_20,Bus Stand Side,Transit,18:55:28,vehicle_congestion,very_high,erratic,bag,medium,0.81
+CAM_JPR_03,Parking Area,Parking,18:55:36,normal_activity,high,increasing,bag,high,0.82
+CAM_JPR_03,Jaipur Junction Main Gate,Entry,18:55:44,crowd_density_high,low,increasing_fast,barricade,medium,0.84
+CAM_JPR_06,Platform 3,Platform,18:55:52,loitering_detected,high,slow,fallen_person,low,0.98
+CAM_JPR_07,Platform 1,Platform,18:56:00,crowd_spillover_detected,medium,increasing,none,critical,0.86
+CAM_JPR_14,Platform 3,Platform,18:56:08,stampede_risk_detected,low,outward_flow,none,high,0.9
+CAM_JPR_20,Platform 1,Platform,18:56:16,panic_movement_detected,low,normal,fallen_person,medium,0.98
+CAM_JPR_16,Platform 3,Platform,18:56:24,crowd_gathering,medium,erratic,fallen_person,low,0.88
+CAM_JPR_12,Platform 2,Platform,18:56:32,vehicle_congestion,medium,increasing,none,medium,0.98
+CAM_JPR_01,Platform 2,Platform,18:56:40,crowd_density_high,medium,slow,barricade,critical,0.85
+CAM_JPR_17,Platform 1,Platform,18:56:48,crowd_density_high,critical,chaotic,bag,critical,0.87
+CAM_JPR_19,Platform 1,Platform,18:56:56,vehicle_congestion,low,increasing,police_vehicle,low,0.87
+CAM_JPR_04,Foot Over Bridge,FOB,18:57:04,vehicle_congestion,critical,chaotic,barricade,low,0.88
+CAM_JPR_11,Foot Over Bridge,FOB,18:57:12,panic_movement_detected,high,increasing,barricade,medium,0.98
+CAM_JPR_11,Parking Area,Parking,18:57:20,stampede_risk_detected,medium,static,fire_smoke,medium,0.98
+CAM_JPR_19,Platform 1,Platform,18:57:28,crowd_spillover_detected,high,chaotic,fallen_person,critical,0.81
+CAM_JPR_16,Metro Entry Gate,Metro,18:57:36,panic_movement_detected,low,increasing_fast,fallen_person,medium,0.85
+CAM_JPR_16,Bus Stand Side,Transit,18:57:44,crowd_density_critical,critical,outward_flow,none,critical,0.85
+CAM_JPR_12,Parking Area,Parking,18:57:52,stampede_risk_detected,medium,chaotic,fallen_person,high,0.98
+CAM_JPR_10,Metro Entry Gate,Metro,18:58:00,crowd_density_high,critical,chaotic,bag,low,0.98
+CAM_JPR_05,Bus Stand Side,Transit,18:58:08,crowd_density_high,critical,static,bag,medium,0.84
+CAM_JPR_20,Jaipur Junction Main Gate,Entry,18:58:16,vehicle_congestion,high,increasing,none,low,0.82
+CAM_JPR_13,Parking Area,Parking,18:58:24,crowd_density_critical,low,erratic,none,medium,0.8
+CAM_JPR_06,Jaipur Junction Main Gate,Entry,18:58:32,abnormal_movement,low,erratic,barricade,high,0.87
+CAM_JPR_06,Platform 2,Platform,18:58:40,vehicle_congestion,medium,static,police_vehicle,low,0.86
+CAM_JPR_19,Platform 2,Platform,18:58:48,panic_movement_detected,low,chaotic,fire_smoke,critical,0.83
+CAM_JPR_16,Parking Area,Parking,18:58:56,stampede_risk_detected,low,chaotic,fallen_person,low,0.93
+CAM_JPR_17,Bus Stand Side,Transit,18:59:04,loitering_detected,low,chaotic,fire_smoke,high,0.94
+CAM_JPR_12,Parking Area,Parking,18:59:12,normal_activity,medium,increasing,police_vehicle,high,0.81
+CAM_JPR_13,Platform 2,Platform,18:59:20,stampede_risk_detected,low,chaotic,none,medium,0.85
+CAM_JPR_11,Foot Over Bridge,FOB,18:59:28,vehicle_congestion,critical,slow,bag,medium,0.91
+CAM_JPR_07,Bus Stand Side,Transit,18:59:36,crowd_density_critical,medium,outward_flow,barricade,medium,0.97
+CAM_JPR_07,Foot Over Bridge,FOB,18:59:44,vehicle_congestion,very_high,normal,bag,low,0.87
+CAM_JPR_05,Platform 2,Platform,18:59:52,abnormal_movement,medium,increasing,bag,medium,0.84
+CAM_JPR_19,Platform 3,Platform,19:00:00,emergency_corridor_blocked,medium,increasing_fast,fire_smoke,high,0.83
+CAM_JPR_02,Parking Area,Parking,19:00:08,crowd_gathering,low,increasing_fast,fallen_person,low,0.9
+CAM_JPR_10,Bus Stand Side,Transit,19:00:16,crowd_density_high,high,chaotic,fallen_person,high,0.93
+CAM_JPR_19,Metro Entry Gate,Metro,19:00:24,stampede_risk_detected,critical,outward_flow,none,critical,0.99
+CAM_JPR_12,Jaipur Junction Main Gate,Entry,19:00:32,stampede_risk_detected,critical,chaotic,fallen_person,medium,0.85
+CAM_JPR_10,Platform 2,Platform,19:00:40,emergency_corridor_blocked,very_high,outward_flow,barricade,critical,0.96
+CAM_JPR_15,Bus Stand Side,Transit,19:00:48,abnormal_movement,low,increasing,barricade,low,0.82
+CAM_JPR_15,Bus Stand Side,Transit,19:00:56,crowd_spillover_detected,very_high,increasing,bag,high,0.96
+CAM_JPR_05,Foot Over Bridge,FOB,19:01:04,crowd_gathering,low,increasing,fire_smoke,low,0.83
+CAM_JPR_03,Bus Stand Side,Transit,19:01:12,normal_activity,medium,chaotic,barricade,medium,0.8
+CAM_JPR_12,Jaipur Junction Main Gate,Entry,19:01:20,abnormal_movement,high,normal,barricade,high,0.83
+CAM_JPR_17,Platform 3,Platform,19:01:28,crowd_density_critical,critical,outward_flow,none,low,0.93
+CAM_JPR_11,Parking Area,Parking,19:01:36,panic_movement_detected,very_high,erratic,bag,low,0.82
+CAM_JPR_14,Foot Over Bridge,FOB,19:01:44,vehicle_congestion,medium,static,police_vehicle,high,0.98
+CAM_JPR_19,Parking Area,Parking,19:01:52,stampede_risk_detected,critical,chaotic,none,critical,0.8
+CAM_JPR_01,Platform 3,Platform,19:02:00,abnormal_movement,medium,erratic,fallen_person,high,0.91
+CAM_JPR_13,Platform 1,Platform,19:02:08,stampede_risk_detected,very_high,increasing_fast,none,medium,0.89
+CAM_JPR_02,Bus Stand Side,Transit,19:02:16,panic_movement_detected,low,erratic,police_vehicle,critical,0.91
+CAM_JPR_03,Platform 1,Platform,19:02:24,loitering_detected,very_high,erratic,police_vehicle,critical,0.86
+CAM_JPR_06,Parking Area,Parking,19:02:32,normal_activity,critical,static,police_vehicle,medium,0.89
+CAM_JPR_11,Foot Over Bridge,FOB,19:02:40,abnormal_movement,low,chaotic,fallen_person,low,0.82
+CAM_JPR_13,Platform 1,Platform,19:02:48,loitering_detected,medium,outward_flow,bag,high,0.89
+CAM_JPR_15,Jaipur Junction Main Gate,Entry,19:02:56,crowd_density_high,medium,slow,barricade,medium,0.97
+CAM_JPR_12,Platform 3,Platform,19:03:04,stampede_risk_detected,low,erratic,none,medium,0.9
+CAM_JPR_04,Platform 2,Platform,19:03:12,vehicle_congestion,critical,erratic,barricade,medium,0.84
+CAM_JPR_17,Bus Stand Side,Transit,19:03:20,loitering_detected,high,static,barricade,high,0.83
+CAM_JPR_10,Foot Over Bridge,FOB,19:03:28,crowd_density_critical,critical,erratic,fire_smoke,critical,0.92
+CAM_JPR_08,Platform 3,Platform,19:03:36,loitering_detected,very_high,outward_flow,police_vehicle,critical,0.84
+CAM_JPR_18,Bus Stand Side,Transit,19:03:44,loitering_detected,medium,outward_flow,none,critical,0.89
+CAM_JPR_17,Platform 2,Platform,19:03:52,abnormal_movement,critical,increasing_fast,barricade,medium,0.91
+CAM_JPR_16,Platform 1,Platform,19:04:00,crowd_spillover_detected,critical,normal,bag,high,0.84
+CAM_JPR_19,Platform 2,Platform,19:04:08,emergency_corridor_blocked,very_high,chaotic,police_vehicle,low,0.99
+CAM_JPR_17,Platform 1,Platform,19:04:16,loitering_detected,critical,erratic,none,critical,0.96
+CAM_JPR_11,Platform 1,Platform,19:04:24,emergency_corridor_blocked,low,increasing,fallen_person,high,0.88
+CAM_JPR_04,Bus Stand Side,Transit,19:04:32,crowd_density_high,low,outward_flow,fallen_person,high,0.9
+CAM_JPR_05,Platform 3,Platform,19:04:40,abnormal_movement,medium,increasing_fast,none,medium,0.82
+CAM_JPR_20,Platform 3,Platform,19:04:48,crowd_spillover_detected,medium,increasing_fast,barricade,low,0.93
+CAM_JPR_14,Bus Stand Side,Transit,19:04:56,normal_activity,low,erratic,bag,medium,0.81
+CAM_JPR_10,Bus Stand Side,Transit,19:05:04,panic_movement_detected,medium,increasing_fast,fallen_person,critical,0.86
+CAM_JPR_05,Metro Entry Gate,Metro,19:05:12,stampede_risk_detected,low,increasing_fast,barricade,medium,0.91
+CAM_JPR_16,Platform 3,Platform,19:05:20,stampede_risk_detected,high,erratic,barricade,high,0.96
+CAM_JPR_03,Metro Entry Gate,Metro,19:05:28,crowd_density_critical,high,erratic,police_vehicle,medium,0.95
+CAM_JPR_18,Foot Over Bridge,FOB,19:05:36,vehicle_congestion,very_high,chaotic,fallen_person,high,0.98
+CAM_JPR_04,Metro Entry Gate,Metro,19:05:44,emergency_corridor_blocked,critical,outward_flow,fire_smoke,critical,0.87
+CAM_JPR_09,Metro Entry Gate,Metro,19:05:52,normal_activity,high,outward_flow,fire_smoke,critical,0.98
+CAM_JPR_08,Bus Stand Side,Transit,19:06:00,panic_movement_detected,medium,outward_flow,bag,critical,0.95
+CAM_JPR_13,Platform 1,Platform,19:06:08,stampede_risk_detected,low,outward_flow,bag,low,0.9
+CAM_JPR_17,Metro Entry Gate,Metro,19:06:16,abnormal_movement,very_high,increasing_fast,fallen_person,low,0.81
+CAM_JPR_06,Foot Over Bridge,FOB,19:06:24,loitering_detected,low,outward_flow,fire_smoke,critical,0.93
+CAM_JPR_03,Foot Over Bridge,FOB,19:06:32,crowd_density_critical,very_high,chaotic,bag,high,0.97

@@ -1,0 +1,39 @@
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+
+# Python caches
+**/__pycache__/
+**/*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment & secrets
+.env
+.env.*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+
+# Large model weights
+yolov8n.pt
+backend/yolov8n.pt
+
+# Scraped and generated data
+scraped_logs/
+data/cctv_logs.json
+data/social_media.json
+
+# TypeScript build artifacts
+frontend/.eslintcache
+

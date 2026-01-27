@@ -1,0 +1,501 @@
+post_id,platform,username,post_text,location,latitude,longitude,timestamp,detected_topic,sentiment_score,is_misinformation,engagement_count
+POST_0001,Instagram,user_1416,Metro station busy but manageable.,Metro Station Jaipur,26.9165,75.7893,18:00:00,normal_commute,0.14,0,195
+POST_0002,Facebook,user_1375,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:00:06,transport_disruption,-0.69,0,1528
+POST_0003,Facebook,user_1327,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:00:12,normal_commute,0.31,0,161
+POST_0004,Instagram,user_5110,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:00:18,protest_gathering,-0.63,0,3720
+POST_0005,Telegram,user_4027,"Fire rumor spreading near station, stay safe!",Jaipur Junction,26.9196,75.7878,18:00:24,normal_commute,-0.58,0,1435
+POST_0006,X,user_4793,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:00:30,police_action_rumor,-0.76,0,2646
+POST_0007,X,user_4787,Daily commute traffic near MI Road.,MI Road,26.9157,75.8186,18:00:36,normal_commute,0.2,0,78
+POST_0008,Instagram,user_8266,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:00:42,transport_disruption,-0.41,0,1164
+POST_0009,X,user_6902,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:00:48,normal_commute,0.37,0,36
+POST_0010,X,user_3994,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:00:54,protest_gathering,-0.6,0,2210
+POST_0011,Instagram,user_3996,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:01:00,normal_commute,0.33,0,33
+POST_0012,Telegram,user_7912,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:01:06,normal_commute,-0.48,0,2128
+POST_0013,Telegram,user_5562,People shouting and running near metro entry!,MI Road,26.9157,75.8186,18:01:12,normal_commute,-0.77,0,2704
+POST_0014,Instagram,user_8256,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:01:18,crowd_panic,-0.4,0,3156
+POST_0015,X,user_8921,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:01:24,transport_disruption,-0.51,0,1278
+POST_0016,Instagram,user_5304,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:01:30,crowd_panic,-0.69,0,4478
+POST_0017,Facebook,user_1798,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:01:36,fire_rumor,-0.65,1,4283
+POST_0018,Facebook,user_5433,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:01:42,police_action_rumor,-0.5,1,1734
+POST_0019,Instagram,user_3767,"Something bad is happening near the station, people running!",Station Road,26.9182,75.7901,18:01:48,protest_gathering,-0.47,0,3778
+POST_0020,Facebook,user_3091,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:01:54,normal_commute,0.13,0,111
+POST_0021,Facebook,user_8417,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:02:00,protest_gathering,-0.33,0,3137
+POST_0022,Instagram,user_8060,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:02:06,normal_commute,0.57,0,182
+POST_0023,X,user_5543,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:02:12,protest_gathering,-0.63,0,1480
+POST_0024,Facebook,user_1680,"Fire rumor spreading near station, stay safe!",Sindhi Camp Bus Stand,26.9221,75.7983,18:02:18,transport_disruption,-0.83,0,2194
+POST_0025,X,user_5693,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:02:24,normal_commute,0.28,0,181
+POST_0026,Instagram,user_9780,"Police action expected, avoid Jaipur Junction!",Jaipur Junction,26.9196,75.7878,18:02:30,crowd_panic,-0.47,0,3347
+POST_0027,Instagram,user_3502,Huge crowd building up near Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:02:36,crowd_panic,-0.52,0,2619
+POST_0028,Telegram,user_7273,"Something bad is happening near the station, people running!",Sindhi Camp Bus Stand,26.9221,75.7983,18:02:42,police_action_rumor,-0.67,1,2728
+POST_0029,X,user_9317,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:02:48,normal_commute,0.44,0,178
+POST_0030,Facebook,user_4648,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:02:54,normal_commute,-0.39,0,1014
+POST_0031,Instagram,user_2702,Evening rush at Jaipur Junction as usual.,Station Road,26.9182,75.7901,18:03:00,normal_commute,0.34,0,12
+POST_0032,X,user_7548,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:03:06,normal_commute,0.48,0,159
+POST_0033,X,user_2951,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:03:12,protest_gathering,-0.66,0,1167
+POST_0034,Facebook,user_8858,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:03:18,normal_commute,0.46,0,29
+POST_0035,Telegram,user_3617,"Waiting for train, station crowded as always.",Sindhi Camp Bus Stand,26.9221,75.7983,18:03:24,normal_commute,0.54,0,184
+POST_0036,Telegram,user_8887,"Something bad is happening near the station, people running!",Station Road,26.9182,75.7901,18:03:30,police_action_rumor,-0.5,0,3983
+POST_0037,Telegram,user_5069,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:03:36,normal_commute,0.48,0,79
+POST_0038,Instagram,user_3764,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:03:42,normal_commute,0.37,0,173
+POST_0039,Telegram,user_8856,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:03:48,fire_rumor,-0.31,1,4202
+POST_0040,X,user_1832,Daily commute traffic near MI Road.,Metro Station Jaipur,26.9165,75.7893,18:03:54,normal_commute,0.33,0,117
+POST_0041,Telegram,user_4894,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:04:00,fire_rumor,-0.82,1,463
+POST_0042,X,user_4460,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:04:06,normal_commute,0.58,0,160
+POST_0043,Facebook,user_8282,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:04:12,normal_commute,-0.8,0,3231
+POST_0044,Facebook,user_7311,"Police action expected, avoid Jaipur Junction!",Station Road,26.9182,75.7901,18:04:18,crowd_panic,-0.52,0,1754
+POST_0045,Instagram,user_6761,Evening rush at Jaipur Junction as usual.,Station Road,26.9182,75.7901,18:04:24,normal_commute,0.36,0,63
+POST_0046,Telegram,user_3921,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:04:30,transport_disruption,-0.74,0,3514
+POST_0047,Telegram,user_5551,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:04:36,normal_commute,0.54,0,128
+POST_0048,Facebook,user_2118,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:04:42,crowd_panic,-0.73,0,460
+POST_0049,Facebook,user_7621,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:04:48,protest_gathering,-0.66,0,4571
+POST_0050,Instagram,user_8729,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:04:54,crowd_panic,-0.68,0,4351
+POST_0051,Facebook,user_1650,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:05:00,transport_disruption,-0.75,0,4308
+POST_0052,X,user_9071,"Fire rumor spreading near station, stay safe!",Sindhi Camp Bus Stand,26.9221,75.7983,18:05:06,crowd_panic,-0.37,0,271
+POST_0053,Instagram,user_8534,Huge crowd building up near Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:05:12,normal_commute,-0.78,0,2963
+POST_0054,Facebook,user_7572,Huge crowd building up near Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:05:18,transport_disruption,-0.8,0,695
+POST_0055,Facebook,user_2844,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:05:24,normal_commute,0.23,0,189
+POST_0056,Facebook,user_6255,Daily commute traffic near MI Road.,Metro Station Jaipur,26.9165,75.7893,18:05:30,normal_commute,0.45,0,52
+POST_0057,Telegram,user_9260,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:05:36,protest_gathering,-0.4,0,3605
+POST_0058,Instagram,user_6923,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:05:42,normal_commute,0.41,0,191
+POST_0059,X,user_9691,"Fire rumor spreading near station, stay safe!",Metro Station Jaipur,26.9165,75.7893,18:05:48,fire_rumor,-0.57,1,4177
+POST_0060,Facebook,user_2843,People shouting and running near metro entry!,MI Road,26.9157,75.8186,18:05:54,police_action_rumor,-0.6,0,1141
+POST_0061,Instagram,user_3215,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:06:00,protest_gathering,-0.39,0,4266
+POST_0062,Telegram,user_9816,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:06:06,normal_commute,0.18,0,50
+POST_0063,Telegram,user_7168,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:06:12,normal_commute,0.55,0,100
+POST_0064,X,user_1145,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:06:18,transport_disruption,-0.72,0,169
+POST_0065,Instagram,user_6845,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:06:24,normal_commute,0.28,0,54
+POST_0066,Telegram,user_5213,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:06:30,normal_commute,-0.85,0,886
+POST_0067,Telegram,user_6036,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:06:36,normal_commute,0.31,0,138
+POST_0068,Facebook,user_6456,People shouting and running near metro entry!,Jaipur Junction,26.9196,75.7878,18:06:42,protest_gathering,-0.84,0,4783
+POST_0069,X,user_7897,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:06:48,normal_commute,0.45,0,87
+POST_0070,X,user_2426,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:06:54,normal_commute,0.56,0,151
+POST_0071,Facebook,user_7516,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:07:00,normal_commute,0.34,0,6
+POST_0072,Telegram,user_3759,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:07:06,fire_rumor,-0.59,1,3332
+POST_0073,Instagram,user_6586,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:07:12,normal_commute,0.33,0,128
+POST_0074,Telegram,user_8008,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:07:18,normal_commute,0.51,0,114
+POST_0075,Instagram,user_3778,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:07:24,fire_rumor,-0.81,1,404
+POST_0076,Instagram,user_8142,Bus stand crowded during peak hours.,Jaipur Junction,26.9196,75.7878,18:07:30,normal_commute,0.58,0,30
+POST_0077,Instagram,user_2812,People shouting and running near metro entry!,MI Road,26.9157,75.8186,18:07:36,fire_rumor,-0.31,1,1317
+POST_0078,Facebook,user_1853,Bus stand crowded during peak hours.,Jaipur Junction,26.9196,75.7878,18:07:42,normal_commute,0.26,0,118
+POST_0079,Instagram,user_9943,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:07:48,normal_commute,0.27,0,127
+POST_0080,Facebook,user_2929,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:07:54,normal_commute,0.31,0,38
+POST_0081,Facebook,user_4013,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:08:00,crowd_panic,-0.59,0,2158
+POST_0082,Instagram,user_8135,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:08:06,normal_commute,0.25,0,47
+POST_0083,Instagram,user_9437,"Something bad is happening near the station, people running!",MI Road,26.9157,75.8186,18:08:12,crowd_panic,-0.52,0,4857
+POST_0084,X,user_8482,Huge crowd building up near Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:08:18,fire_rumor,-0.57,1,1747
+POST_0085,Instagram,user_9322,"Police action expected, avoid Jaipur Junction!",Station Road,26.9182,75.7901,18:08:24,protest_gathering,-0.81,0,1718
+POST_0086,Telegram,user_7072,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:08:30,crowd_panic,-0.71,0,2903
+POST_0087,Instagram,user_2269,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:08:36,transport_disruption,-0.42,0,89
+POST_0088,Telegram,user_3069,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:08:42,normal_commute,0.1,0,32
+POST_0089,X,user_5433,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:08:48,normal_commute,0.21,0,182
+POST_0090,Instagram,user_4217,Bus stand crowded during peak hours.,Station Road,26.9182,75.7901,18:08:54,normal_commute,0.14,0,184
+POST_0091,Telegram,user_4987,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:09:00,normal_commute,0.39,0,141
+POST_0092,Telegram,user_7611,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:09:06,normal_commute,0.21,0,112
+POST_0093,Instagram,user_6275,People shouting and running near metro entry!,MI Road,26.9157,75.8186,18:09:12,fire_rumor,-0.44,0,3746
+POST_0094,Facebook,user_7849,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:09:18,normal_commute,0.41,0,59
+POST_0095,Telegram,user_9291,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:09:24,normal_commute,0.12,0,172
+POST_0096,Telegram,user_6924,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:09:30,normal_commute,0.31,0,147
+POST_0097,Telegram,user_1626,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:09:36,protest_gathering,-0.43,0,4963
+POST_0098,Telegram,user_8918,People shouting and running near metro entry!,Jaipur Junction,26.9196,75.7878,18:09:42,protest_gathering,-0.87,0,616
+POST_0099,Telegram,user_7549,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:09:48,normal_commute,0.22,0,58
+POST_0100,Instagram,user_2310,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:09:54,crowd_panic,-0.76,0,4698
+POST_0101,Facebook,user_7321,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:10:00,normal_commute,0.52,0,24
+POST_0102,X,user_9340,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:10:06,protest_gathering,-0.9,0,1213
+POST_0103,Facebook,user_1604,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:10:12,normal_commute,0.52,0,92
+POST_0104,Facebook,user_9370,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:10:18,normal_commute,0.15,0,146
+POST_0105,X,user_5841,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:10:24,protest_gathering,-0.55,0,106
+POST_0106,Telegram,user_7486,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:10:30,fire_rumor,-0.79,1,3153
+POST_0107,Instagram,user_1770,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:10:36,normal_commute,0.4,0,49
+POST_0108,Telegram,user_6116,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:10:42,normal_commute,0.59,0,136
+POST_0109,X,user_3777,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:10:48,normal_commute,-0.56,0,2486
+POST_0110,Telegram,user_5780,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:10:54,normal_commute,0.13,0,184
+POST_0111,Telegram,user_1108,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:11:00,normal_commute,-0.47,0,270
+POST_0112,X,user_7249,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:11:06,transport_disruption,-0.86,0,2838
+POST_0113,Telegram,user_5615,People shouting and running near metro entry!,MI Road,26.9157,75.8186,18:11:12,protest_gathering,-0.54,0,1979
+POST_0114,Instagram,user_6547,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:11:18,normal_commute,0.16,0,166
+POST_0115,Instagram,user_6986,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:11:24,normal_commute,0.15,0,114
+POST_0116,Facebook,user_1536,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:11:30,crowd_panic,-0.54,0,1196
+POST_0117,Facebook,user_3966,Evening rush at Jaipur Junction as usual.,Metro Station Jaipur,26.9165,75.7893,18:11:36,normal_commute,0.33,0,147
+POST_0118,Telegram,user_7728,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:11:42,normal_commute,0.37,0,7
+POST_0119,Facebook,user_9638,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:11:48,normal_commute,0.38,0,69
+POST_0120,Instagram,user_8050,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:11:54,normal_commute,0.26,0,72
+POST_0121,X,user_5320,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:12:00,normal_commute,0.28,0,125
+POST_0122,X,user_8420,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:12:06,normal_commute,0.15,0,148
+POST_0123,X,user_1255,Bus stand crowded during peak hours.,Jaipur Junction,26.9196,75.7878,18:12:12,normal_commute,0.37,0,132
+POST_0124,Facebook,user_4253,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:12:18,normal_commute,0.25,0,172
+POST_0125,Facebook,user_3740,Metro station busy but manageable.,Metro Station Jaipur,26.9165,75.7893,18:12:24,normal_commute,0.39,0,118
+POST_0126,Facebook,user_4976,"Fire rumor spreading near station, stay safe!",Jaipur Junction,26.9196,75.7878,18:12:30,fire_rumor,-0.79,1,3636
+POST_0127,Telegram,user_2227,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:12:36,normal_commute,-0.39,0,3368
+POST_0128,Instagram,user_7352,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:12:42,crowd_panic,-0.36,0,908
+POST_0129,Facebook,user_2308,People shouting and running near metro entry!,MI Road,26.9157,75.8186,18:12:48,normal_commute,-0.42,0,3443
+POST_0130,Instagram,user_8602,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:12:54,normal_commute,-0.89,0,3207
+POST_0131,Facebook,user_5090,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:13:00,crowd_panic,-0.6,0,271
+POST_0132,Instagram,user_8831,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:13:06,transport_disruption,-0.49,0,3311
+POST_0133,Instagram,user_3003,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:13:12,normal_commute,0.58,0,112
+POST_0134,Telegram,user_9627,"Police action expected, avoid Jaipur Junction!",Jaipur Junction,26.9196,75.7878,18:13:18,crowd_panic,-0.64,0,2144
+POST_0135,Telegram,user_6987,Huge crowd building up near Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:13:24,transport_disruption,-0.41,0,4241
+POST_0136,Facebook,user_2891,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:13:30,fire_rumor,-0.68,1,2832
+POST_0137,X,user_6664,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:13:36,police_action_rumor,-0.72,1,3976
+POST_0138,Telegram,user_9007,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:13:42,normal_commute,0.27,0,52
+POST_0139,X,user_6242,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:13:48,normal_commute,0.16,0,118
+POST_0140,Telegram,user_9060,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:13:54,transport_disruption,-0.38,0,3334
+POST_0141,Facebook,user_4357,Daily commute traffic near MI Road.,MI Road,26.9157,75.8186,18:14:00,normal_commute,0.17,0,37
+POST_0142,X,user_8543,Bus stand crowded during peak hours.,Station Road,26.9182,75.7901,18:14:06,normal_commute,0.58,0,120
+POST_0143,Telegram,user_5538,"Fire rumor spreading near station, stay safe!",Jaipur Junction,26.9196,75.7878,18:14:12,police_action_rumor,-0.9,1,1897
+POST_0144,Telegram,user_3173,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:14:18,normal_commute,0.42,0,12
+POST_0145,Instagram,user_4086,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:14:24,normal_commute,0.49,0,171
+POST_0146,Instagram,user_3011,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:14:30,normal_commute,0.14,0,113
+POST_0147,Telegram,user_9750,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:14:36,normal_commute,0.28,0,123
+POST_0148,X,user_1558,Huge crowd building up near Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:14:42,crowd_panic,-0.41,0,4386
+POST_0149,X,user_6532,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:14:48,normal_commute,0.49,0,8
+POST_0150,Facebook,user_5790,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:14:54,normal_commute,0.13,0,120
+POST_0151,Instagram,user_7561,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:15:00,normal_commute,0.51,0,123
+POST_0152,Telegram,user_6009,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:15:06,normal_commute,0.54,0,179
+POST_0153,Facebook,user_2548,"Waiting for train, station crowded as always.",Sindhi Camp Bus Stand,26.9221,75.7983,18:15:12,normal_commute,0.35,0,189
+POST_0154,X,user_3072,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:15:18,normal_commute,0.16,0,180
+POST_0155,Telegram,user_1607,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:15:24,normal_commute,0.57,0,140
+POST_0156,Facebook,user_7303,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:15:30,normal_commute,0.54,0,167
+POST_0157,Telegram,user_2909,Evening rush at Jaipur Junction as usual.,Metro Station Jaipur,26.9165,75.7893,18:15:36,normal_commute,0.53,0,161
+POST_0158,Telegram,user_8968,Trains stopped? Chaos at Jaipur Junction!,MI Road,26.9157,75.8186,18:15:42,normal_commute,-0.79,0,3430
+POST_0159,Facebook,user_4898,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:15:48,protest_gathering,-0.64,0,1712
+POST_0160,Instagram,user_4530,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:15:54,protest_gathering,-0.61,0,3990
+POST_0161,Telegram,user_9507,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:16:00,protest_gathering,-0.78,0,27
+POST_0162,Facebook,user_8410,"Waiting for train, station crowded as always.",Sindhi Camp Bus Stand,26.9221,75.7983,18:16:06,normal_commute,0.47,0,133
+POST_0163,Telegram,user_9969,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:16:12,fire_rumor,-0.66,1,2811
+POST_0164,Facebook,user_9011,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:16:18,normal_commute,0.55,0,73
+POST_0165,Facebook,user_6429,Daily commute traffic near MI Road.,Metro Station Jaipur,26.9165,75.7893,18:16:24,normal_commute,0.55,0,188
+POST_0166,Telegram,user_8122,"Fire rumor spreading near station, stay safe!",Jaipur Junction,26.9196,75.7878,18:16:30,fire_rumor,-0.51,1,204
+POST_0167,Telegram,user_8505,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:16:36,police_action_rumor,-0.71,1,2501
+POST_0168,X,user_7386,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:16:42,normal_commute,0.56,0,104
+POST_0169,Instagram,user_3755,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:16:48,normal_commute,-0.84,0,3827
+POST_0170,X,user_8930,"Waiting for train, station crowded as always.",Sindhi Camp Bus Stand,26.9221,75.7983,18:16:54,normal_commute,0.57,0,60
+POST_0171,Instagram,user_8782,"Something bad is happening near the station, people running!",Sindhi Camp Bus Stand,26.9221,75.7983,18:17:00,fire_rumor,-0.38,1,2471
+POST_0172,Telegram,user_7397,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:17:06,normal_commute,0.53,0,160
+POST_0173,Facebook,user_2575,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:17:12,protest_gathering,-0.9,0,3774
+POST_0174,Instagram,user_2579,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:17:18,normal_commute,0.19,0,111
+POST_0175,Facebook,user_4112,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:17:24,protest_gathering,-0.39,0,2329
+POST_0176,Instagram,user_6526,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:17:30,normal_commute,0.59,0,170
+POST_0177,Facebook,user_1520,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:17:36,normal_commute,0.21,0,136
+POST_0178,Telegram,user_8920,"Police action expected, avoid Jaipur Junction!",Station Road,26.9182,75.7901,18:17:42,transport_disruption,-0.51,0,2415
+POST_0179,X,user_2598,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:17:48,normal_commute,0.41,0,97
+POST_0180,Telegram,user_4429,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:17:54,normal_commute,0.31,0,122
+POST_0181,Instagram,user_1221,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:18:00,transport_disruption,-0.74,0,1068
+POST_0182,Telegram,user_5229,Huge crowd building up near Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:18:06,normal_commute,-0.88,0,4585
+POST_0183,Facebook,user_4642,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:18:12,normal_commute,0.12,0,39
+POST_0184,X,user_8986,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:18:18,fire_rumor,-0.69,0,4848
+POST_0185,Facebook,user_2562,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:18:24,police_action_rumor,-0.61,1,1722
+POST_0186,X,user_4109,Trains stopped? Chaos at Jaipur Junction!,MI Road,26.9157,75.8186,18:18:30,police_action_rumor,-0.67,1,152
+POST_0187,Facebook,user_4869,Daily commute traffic near MI Road.,Metro Station Jaipur,26.9165,75.7893,18:18:36,normal_commute,0.19,0,14
+POST_0188,Facebook,user_7586,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:18:42,normal_commute,0.19,0,186
+POST_0189,X,user_4002,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:18:48,fire_rumor,-0.42,0,4166
+POST_0190,Facebook,user_1221,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:18:54,normal_commute,0.56,0,129
+POST_0191,Telegram,user_2754,Daily commute traffic near MI Road.,Metro Station Jaipur,26.9165,75.7893,18:19:00,normal_commute,0.55,0,150
+POST_0192,Instagram,user_2991,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:19:06,normal_commute,0.31,0,23
+POST_0193,Telegram,user_9591,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:19:12,fire_rumor,-0.57,1,4247
+POST_0194,Instagram,user_5629,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:19:18,normal_commute,0.32,0,189
+POST_0195,Facebook,user_8622,Huge crowd building up near Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:19:24,crowd_panic,-0.58,0,2021
+POST_0196,Instagram,user_8638,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:19:30,fire_rumor,-0.34,1,4250
+POST_0197,Telegram,user_6730,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:19:36,normal_commute,0.47,0,130
+POST_0198,X,user_8596,"Waiting for train, station crowded as always.",Station Road,26.9182,75.7901,18:19:42,normal_commute,0.49,0,186
+POST_0199,Telegram,user_3820,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:19:48,protest_gathering,-0.34,0,4179
+POST_0200,Instagram,user_9433,"Waiting for train, station crowded as always.",Sindhi Camp Bus Stand,26.9221,75.7983,18:19:54,normal_commute,0.17,0,20
+POST_0201,Telegram,user_7296,"Police action expected, avoid Jaipur Junction!",Jaipur Junction,26.9196,75.7878,18:20:00,crowd_panic,-0.44,0,779
+POST_0202,Instagram,user_5364,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:20:06,normal_commute,0.54,0,119
+POST_0203,Telegram,user_4312,"Something bad is happening near the station, people running!",Station Road,26.9182,75.7901,18:20:12,normal_commute,-0.73,0,126
+POST_0204,Instagram,user_7227,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:20:18,transport_disruption,-0.45,0,3132
+POST_0205,Telegram,user_1340,Trains stopped? Chaos at Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:20:24,crowd_panic,-0.33,0,1636
+POST_0206,Telegram,user_5438,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:20:30,police_action_rumor,-0.55,1,3543
+POST_0207,Telegram,user_3042,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:20:36,normal_commute,0.11,0,108
+POST_0208,Telegram,user_3769,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:20:42,normal_commute,0.35,0,120
+POST_0209,Facebook,user_3710,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:20:48,protest_gathering,-0.51,0,852
+POST_0210,Facebook,user_8360,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:20:54,transport_disruption,-0.69,0,2653
+POST_0211,Facebook,user_8582,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:21:00,normal_commute,-0.48,0,4740
+POST_0212,Telegram,user_4318,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:21:06,normal_commute,0.26,0,151
+POST_0213,Facebook,user_5128,Trains stopped? Chaos at Jaipur Junction!,MI Road,26.9157,75.8186,18:21:12,crowd_panic,-0.34,0,2907
+POST_0214,Facebook,user_7634,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:21:18,fire_rumor,-0.75,1,1143
+POST_0215,X,user_2808,Metro station busy but manageable.,MI Road,26.9157,75.8186,18:21:24,normal_commute,0.15,0,46
+POST_0216,Telegram,user_3164,"Fire rumor spreading near station, stay safe!",Metro Station Jaipur,26.9165,75.7893,18:21:30,police_action_rumor,-0.31,0,1365
+POST_0217,X,user_9182,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:21:36,normal_commute,0.15,0,92
+POST_0218,Instagram,user_9394,Huge crowd building up near Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:21:42,protest_gathering,-0.42,0,3976
+POST_0219,Facebook,user_4449,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:21:48,normal_commute,0.47,0,183
+POST_0220,Instagram,user_2433,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:21:54,normal_commute,0.21,0,147
+POST_0221,Instagram,user_4225,Evening rush at Jaipur Junction as usual.,Metro Station Jaipur,26.9165,75.7893,18:22:00,normal_commute,0.48,0,78
+POST_0222,Instagram,user_1673,Bus stand crowded during peak hours.,Station Road,26.9182,75.7901,18:22:06,normal_commute,0.33,0,60
+POST_0223,X,user_7651,"Waiting for train, station crowded as always.",Sindhi Camp Bus Stand,26.9221,75.7983,18:22:12,normal_commute,0.56,0,195
+POST_0224,X,user_7668,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:22:18,police_action_rumor,-0.7,1,1118
+POST_0225,Telegram,user_8863,Daily commute traffic near MI Road.,MI Road,26.9157,75.8186,18:22:24,normal_commute,0.13,0,61
+POST_0226,Instagram,user_6283,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:22:30,crowd_panic,-0.56,0,1992
+POST_0227,Telegram,user_6641,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:22:36,police_action_rumor,-0.83,1,1611
+POST_0228,Facebook,user_5847,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:22:42,transport_disruption,-0.32,0,2293
+POST_0229,Telegram,user_3691,Trains stopped? Chaos at Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:22:48,fire_rumor,-0.39,1,2332
+POST_0230,Telegram,user_7342,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:22:54,normal_commute,0.57,0,136
+POST_0231,X,user_8175,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:23:00,normal_commute,-0.84,0,377
+POST_0232,Telegram,user_5872,Trains stopped? Chaos at Jaipur Junction!,MI Road,26.9157,75.8186,18:23:06,protest_gathering,-0.86,0,2676
+POST_0233,Facebook,user_6805,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:23:12,normal_commute,0.44,0,11
+POST_0234,Facebook,user_6709,Evening rush at Jaipur Junction as usual.,Station Road,26.9182,75.7901,18:23:18,normal_commute,0.51,0,144
+POST_0235,Instagram,user_7484,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:23:24,normal_commute,0.26,0,164
+POST_0236,Telegram,user_4748,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:23:30,normal_commute,0.1,0,155
+POST_0237,Instagram,user_4708,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:23:36,normal_commute,-0.83,0,2353
+POST_0238,Facebook,user_2908,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:23:42,normal_commute,-0.41,0,4867
+POST_0239,Telegram,user_6759,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:23:48,fire_rumor,-0.44,1,3962
+POST_0240,Facebook,user_5027,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:23:54,normal_commute,-0.7,0,2318
+POST_0241,Facebook,user_2228,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:24:00,crowd_panic,-0.46,0,2245
+POST_0242,Telegram,user_8363,Huge crowd building up near Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:24:06,normal_commute,-0.54,0,506
+POST_0243,X,user_1841,Trains stopped? Chaos at Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:24:12,crowd_panic,-0.43,0,729
+POST_0244,X,user_3025,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:24:18,normal_commute,0.36,0,146
+POST_0245,X,user_9051,Trains stopped? Chaos at Jaipur Junction!,MI Road,26.9157,75.8186,18:24:24,transport_disruption,-0.77,0,2033
+POST_0246,Instagram,user_3697,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:24:30,normal_commute,0.49,0,16
+POST_0247,Telegram,user_3338,Trains stopped? Chaos at Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:24:36,crowd_panic,-0.74,0,667
+POST_0248,X,user_8216,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:24:42,normal_commute,0.11,0,66
+POST_0249,Telegram,user_2590,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:24:48,normal_commute,-0.37,0,1875
+POST_0250,Facebook,user_6472,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:24:54,normal_commute,0.19,0,98
+POST_0251,Telegram,user_6455,Evening rush at Jaipur Junction as usual.,Metro Station Jaipur,26.9165,75.7893,18:25:00,normal_commute,0.58,0,123
+POST_0252,Facebook,user_1345,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:25:06,police_action_rumor,-0.81,1,2289
+POST_0253,X,user_2609,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:25:12,normal_commute,0.54,0,35
+POST_0254,Facebook,user_5528,"Something bad is happening near the station, people running!",Sindhi Camp Bus Stand,26.9221,75.7983,18:25:18,fire_rumor,-0.49,0,971
+POST_0255,Facebook,user_8417,Huge crowd building up near Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:25:24,police_action_rumor,-0.7,1,3936
+POST_0256,Instagram,user_7476,Evening rush at Jaipur Junction as usual.,Metro Station Jaipur,26.9165,75.7893,18:25:30,normal_commute,0.3,0,152
+POST_0257,Telegram,user_1671,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:25:36,police_action_rumor,-0.37,1,2159
+POST_0258,Telegram,user_1686,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:25:42,normal_commute,0.56,0,140
+POST_0259,X,user_6139,Metro station busy but manageable.,MI Road,26.9157,75.8186,18:25:48,normal_commute,0.56,0,196
+POST_0260,Telegram,user_9534,"Something bad is happening near the station, people running!",Sindhi Camp Bus Stand,26.9221,75.7983,18:25:54,protest_gathering,-0.53,0,3192
+POST_0261,X,user_1323,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:26:00,normal_commute,0.6,0,136
+POST_0262,Instagram,user_9342,Huge crowd building up near Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:26:06,police_action_rumor,-0.83,1,2684
+POST_0263,Telegram,user_8148,Evening rush at Jaipur Junction as usual.,Metro Station Jaipur,26.9165,75.7893,18:26:12,normal_commute,0.41,0,147
+POST_0264,Facebook,user_2531,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:26:18,normal_commute,0.31,0,22
+POST_0265,Telegram,user_5907,Daily commute traffic near MI Road.,Metro Station Jaipur,26.9165,75.7893,18:26:24,normal_commute,0.54,0,185
+POST_0266,X,user_4085,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:26:30,normal_commute,0.23,0,179
+POST_0267,X,user_8259,Daily commute traffic near MI Road.,MI Road,26.9157,75.8186,18:26:36,normal_commute,0.54,0,90
+POST_0268,Facebook,user_2894,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:26:42,normal_commute,0.5,0,176
+POST_0269,Instagram,user_1289,"Something bad is happening near the station, people running!",MI Road,26.9157,75.8186,18:26:48,protest_gathering,-0.42,0,2811
+POST_0270,Instagram,user_3470,Bus stand crowded during peak hours.,Station Road,26.9182,75.7901,18:26:54,normal_commute,0.26,0,99
+POST_0271,Facebook,user_2550,Evening rush at Jaipur Junction as usual.,Station Road,26.9182,75.7901,18:27:00,normal_commute,0.55,0,182
+POST_0272,Instagram,user_8904,"Fire rumor spreading near station, stay safe!",Metro Station Jaipur,26.9165,75.7893,18:27:06,transport_disruption,-0.42,0,4908
+POST_0273,X,user_7596,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:27:12,normal_commute,0.35,0,176
+POST_0274,X,user_4320,"Police action expected, avoid Jaipur Junction!",Jaipur Junction,26.9196,75.7878,18:27:18,crowd_panic,-0.54,0,1394
+POST_0275,Facebook,user_5472,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:27:24,normal_commute,0.43,0,115
+POST_0276,Telegram,user_6566,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:27:30,police_action_rumor,-0.87,0,3857
+POST_0277,Telegram,user_9767,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:27:36,crowd_panic,-0.48,0,3991
+POST_0278,X,user_7502,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:27:42,normal_commute,0.29,0,36
+POST_0279,Telegram,user_7907,Metro station busy but manageable.,Metro Station Jaipur,26.9165,75.7893,18:27:48,normal_commute,0.12,0,182
+POST_0280,Instagram,user_5337,"Fire rumor spreading near station, stay safe!",Jaipur Junction,26.9196,75.7878,18:27:54,police_action_rumor,-0.35,0,3004
+POST_0281,X,user_3467,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:28:00,normal_commute,0.19,0,82
+POST_0282,Instagram,user_9500,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:28:06,normal_commute,0.23,0,30
+POST_0283,Instagram,user_1846,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:28:12,normal_commute,0.3,0,78
+POST_0284,X,user_8390,Trains stopped? Chaos at Jaipur Junction!,MI Road,26.9157,75.8186,18:28:18,crowd_panic,-0.88,0,1369
+POST_0285,Instagram,user_9527,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:28:24,normal_commute,0.41,0,9
+POST_0286,X,user_1824,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:28:30,normal_commute,0.58,0,73
+POST_0287,Telegram,user_3862,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:28:36,normal_commute,0.34,0,194
+POST_0288,Telegram,user_6259,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:28:42,police_action_rumor,-0.71,1,1098
+POST_0289,Telegram,user_1808,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:28:48,normal_commute,0.38,0,8
+POST_0290,Telegram,user_2725,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:28:54,normal_commute,0.33,0,74
+POST_0291,X,user_4324,"Something bad is happening near the station, people running!",Sindhi Camp Bus Stand,26.9221,75.7983,18:29:00,crowd_panic,-0.78,0,4299
+POST_0292,Facebook,user_5870,Trains stopped? Chaos at Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:29:06,police_action_rumor,-0.47,0,2718
+POST_0293,Facebook,user_8519,Trains stopped? Chaos at Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:29:12,normal_commute,-0.79,0,383
+POST_0294,Facebook,user_7711,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:29:18,normal_commute,0.5,0,25
+POST_0295,Facebook,user_6164,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:29:24,normal_commute,0.21,0,66
+POST_0296,Instagram,user_8320,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:29:30,transport_disruption,-0.61,0,4958
+POST_0297,X,user_4875,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:29:36,normal_commute,0.25,0,96
+POST_0298,Instagram,user_8530,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:29:42,normal_commute,0.35,0,181
+POST_0299,Telegram,user_8871,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:29:48,protest_gathering,-0.63,0,2441
+POST_0300,Telegram,user_5897,Trains stopped? Chaos at Jaipur Junction!,Sindhi Camp Bus Stand,26.9221,75.7983,18:29:54,police_action_rumor,-0.81,0,4855
+POST_0301,Telegram,user_1259,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:30:00,fire_rumor,-0.48,0,579
+POST_0302,Facebook,user_5163,Huge crowd building up near Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:30:06,protest_gathering,-0.35,0,1247
+POST_0303,Telegram,user_2120,Metro station busy but manageable.,MI Road,26.9157,75.8186,18:30:12,normal_commute,0.34,0,193
+POST_0304,X,user_4016,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:30:18,fire_rumor,-0.45,0,415
+POST_0305,X,user_1820,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:30:24,police_action_rumor,-0.59,1,790
+POST_0306,X,user_3062,"Police action expected, avoid Jaipur Junction!",Station Road,26.9182,75.7901,18:30:30,normal_commute,-0.72,0,2417
+POST_0307,Facebook,user_9981,"Fire rumor spreading near station, stay safe!",Jaipur Junction,26.9196,75.7878,18:30:36,crowd_panic,-0.64,0,1359
+POST_0308,X,user_5796,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:30:42,normal_commute,0.21,0,42
+POST_0309,Telegram,user_5602,"Waiting for train, station crowded as always.",Station Road,26.9182,75.7901,18:30:48,normal_commute,0.58,0,130
+POST_0310,Telegram,user_8702,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:30:54,normal_commute,0.47,0,154
+POST_0311,X,user_9944,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:31:00,police_action_rumor,-0.68,1,3314
+POST_0312,X,user_2544,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:31:06,normal_commute,0.33,0,78
+POST_0313,Telegram,user_7403,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:31:12,crowd_panic,-0.85,0,2211
+POST_0314,Instagram,user_5415,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:31:18,fire_rumor,-0.86,0,743
+POST_0315,Instagram,user_7203,Bus stand crowded during peak hours.,Station Road,26.9182,75.7901,18:31:24,normal_commute,0.37,0,80
+POST_0316,Instagram,user_9298,Daily commute traffic near MI Road.,MI Road,26.9157,75.8186,18:31:30,normal_commute,0.26,0,84
+POST_0317,Facebook,user_5666,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:31:36,police_action_rumor,-0.47,0,250
+POST_0318,X,user_6713,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:31:42,normal_commute,0.55,0,131
+POST_0319,X,user_7233,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:31:48,normal_commute,-0.81,0,4960
+POST_0320,Telegram,user_4580,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:31:54,normal_commute,-0.56,0,22
+POST_0321,X,user_3692,Trains stopped? Chaos at Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:32:00,protest_gathering,-0.69,0,3868
+POST_0322,X,user_4644,Huge crowd building up near Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:32:06,protest_gathering,-0.41,0,351
+POST_0323,Instagram,user_9844,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:32:12,normal_commute,0.33,0,44
+POST_0324,Telegram,user_5840,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:32:18,transport_disruption,-0.62,0,3495
+POST_0325,Telegram,user_6835,"Fire rumor spreading near station, stay safe!",Jaipur Junction,26.9196,75.7878,18:32:24,police_action_rumor,-0.88,1,4329
+POST_0326,Telegram,user_1031,"Police action expected, avoid Jaipur Junction!",Jaipur Junction,26.9196,75.7878,18:32:30,transport_disruption,-0.4,0,1324
+POST_0327,Telegram,user_9523,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:32:36,normal_commute,0.28,0,79
+POST_0328,Telegram,user_2903,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:32:42,normal_commute,0.24,0,50
+POST_0329,X,user_8846,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:32:48,crowd_panic,-0.75,0,2454
+POST_0330,Instagram,user_1727,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:32:54,normal_commute,0.25,0,93
+POST_0331,Instagram,user_6782,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:33:00,police_action_rumor,-0.86,0,2412
+POST_0332,Facebook,user_2882,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:33:06,normal_commute,-0.78,0,971
+POST_0333,Facebook,user_8943,Huge crowd building up near Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:33:12,transport_disruption,-0.4,0,4325
+POST_0334,X,user_1777,"Waiting for train, station crowded as always.",Sindhi Camp Bus Stand,26.9221,75.7983,18:33:18,normal_commute,0.53,0,62
+POST_0335,Instagram,user_2769,"Waiting for train, station crowded as always.",Sindhi Camp Bus Stand,26.9221,75.7983,18:33:24,normal_commute,0.51,0,29
+POST_0336,Telegram,user_1943,Bus stand crowded during peak hours.,Jaipur Junction,26.9196,75.7878,18:33:30,normal_commute,0.15,0,101
+POST_0337,Instagram,user_7783,Trains stopped? Chaos at Jaipur Junction!,MI Road,26.9157,75.8186,18:33:36,fire_rumor,-0.67,0,122
+POST_0338,X,user_3305,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:33:42,crowd_panic,-0.35,0,2165
+POST_0339,Instagram,user_9051,"Police action expected, avoid Jaipur Junction!",Station Road,26.9182,75.7901,18:33:48,fire_rumor,-0.42,1,2625
+POST_0340,Instagram,user_9382,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:33:54,normal_commute,-0.62,0,369
+POST_0341,Telegram,user_1143,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:34:00,fire_rumor,-0.81,1,3129
+POST_0342,Instagram,user_5517,"Something bad is happening near the station, people running!",MI Road,26.9157,75.8186,18:34:06,normal_commute,-0.32,0,712
+POST_0343,Facebook,user_9911,Bus stand crowded during peak hours.,Jaipur Junction,26.9196,75.7878,18:34:12,normal_commute,0.53,0,177
+POST_0344,X,user_1649,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:34:18,normal_commute,0.3,0,126
+POST_0345,Telegram,user_1229,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:34:24,fire_rumor,-0.76,1,3224
+POST_0346,Telegram,user_9993,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:34:30,fire_rumor,-0.77,1,2709
+POST_0347,X,user_7697,Huge crowd building up near Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:34:36,normal_commute,-0.49,0,3522
+POST_0348,Facebook,user_2999,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:34:42,police_action_rumor,-0.54,1,4473
+POST_0349,Facebook,user_5122,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:34:48,normal_commute,0.35,0,15
+POST_0350,Facebook,user_9972,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:34:54,normal_commute,0.25,0,150
+POST_0351,Telegram,user_6349,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:35:00,protest_gathering,-0.88,0,2881
+POST_0352,Facebook,user_2418,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:35:06,normal_commute,0.17,0,89
+POST_0353,Instagram,user_5958,Huge crowd building up near Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:35:12,crowd_panic,-0.53,0,3310
+POST_0354,Facebook,user_9093,Metro station busy but manageable.,MI Road,26.9157,75.8186,18:35:18,normal_commute,0.56,0,13
+POST_0355,Instagram,user_5966,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:35:24,normal_commute,0.12,0,160
+POST_0356,Instagram,user_9839,Bus stand crowded during peak hours.,Station Road,26.9182,75.7901,18:35:30,normal_commute,0.51,0,124
+POST_0357,Telegram,user_2498,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:35:36,police_action_rumor,-0.59,0,4292
+POST_0358,X,user_3975,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:35:42,protest_gathering,-0.57,0,1380
+POST_0359,Facebook,user_7399,"Police action expected, avoid Jaipur Junction!",Station Road,26.9182,75.7901,18:35:48,crowd_panic,-0.74,0,4710
+POST_0360,Telegram,user_8818,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:35:54,normal_commute,0.58,0,155
+POST_0361,Facebook,user_1810,"Something bad is happening near the station, people running!",MI Road,26.9157,75.8186,18:36:00,protest_gathering,-0.68,0,1909
+POST_0362,Telegram,user_8057,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:36:06,fire_rumor,-0.32,0,4276
+POST_0363,X,user_5461,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:36:12,normal_commute,0.33,0,60
+POST_0364,X,user_7723,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:36:18,normal_commute,0.38,0,15
+POST_0365,Telegram,user_6254,Daily commute traffic near MI Road.,Metro Station Jaipur,26.9165,75.7893,18:36:24,normal_commute,0.53,0,110
+POST_0366,Telegram,user_4783,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:36:30,crowd_panic,-0.56,0,517
+POST_0367,X,user_2121,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:36:36,protest_gathering,-0.8,0,2776
+POST_0368,Instagram,user_8373,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:36:42,normal_commute,0.2,0,58
+POST_0369,Facebook,user_8640,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:36:48,crowd_panic,-0.3,0,4916
+POST_0370,Telegram,user_3421,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:36:54,normal_commute,0.34,0,182
+POST_0371,Facebook,user_8125,"Police action expected, avoid Jaipur Junction!",Station Road,26.9182,75.7901,18:37:00,police_action_rumor,-0.76,1,414
+POST_0372,Instagram,user_2305,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:37:06,protest_gathering,-0.71,0,654
+POST_0373,X,user_2352,"Waiting for train, station crowded as always.",Station Road,26.9182,75.7901,18:37:12,normal_commute,0.56,0,53
+POST_0374,Facebook,user_7642,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:37:18,normal_commute,0.53,0,12
+POST_0375,Instagram,user_8767,Bus stand crowded during peak hours.,Jaipur Junction,26.9196,75.7878,18:37:24,normal_commute,0.58,0,47
+POST_0376,Facebook,user_1655,"Something bad is happening near the station, people running!",Sindhi Camp Bus Stand,26.9221,75.7983,18:37:30,normal_commute,-0.51,0,4572
+POST_0377,X,user_6569,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:37:36,normal_commute,0.57,0,25
+POST_0378,X,user_1998,"Something bad is happening near the station, people running!",Station Road,26.9182,75.7901,18:37:42,fire_rumor,-0.38,1,4033
+POST_0379,Facebook,user_2325,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:37:48,normal_commute,0.33,0,171
+POST_0380,Facebook,user_2305,Bus stand crowded during peak hours.,Metro Station Jaipur,26.9165,75.7893,18:37:54,normal_commute,0.21,0,20
+POST_0381,X,user_6879,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:38:00,normal_commute,0.4,0,5
+POST_0382,Instagram,user_4352,Huge crowd building up near Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:38:06,fire_rumor,-0.57,1,2352
+POST_0383,Telegram,user_7218,Evening rush at Jaipur Junction as usual.,Station Road,26.9182,75.7901,18:38:12,normal_commute,0.51,0,146
+POST_0384,Telegram,user_1261,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:38:18,crowd_panic,-0.56,0,4418
+POST_0385,Instagram,user_9900,"Something bad is happening near the station, people running!",Sindhi Camp Bus Stand,26.9221,75.7983,18:38:24,normal_commute,-0.41,0,4154
+POST_0386,Instagram,user_6408,"Something bad is happening near the station, people running!",Station Road,26.9182,75.7901,18:38:30,fire_rumor,-0.59,1,4295
+POST_0387,Instagram,user_2956,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:38:36,normal_commute,0.45,0,165
+POST_0388,Telegram,user_8116,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:38:42,crowd_panic,-0.82,0,2152
+POST_0389,Telegram,user_8896,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:38:48,fire_rumor,-0.87,0,2540
+POST_0390,Facebook,user_1310,Metro station busy but manageable.,Metro Station Jaipur,26.9165,75.7893,18:38:54,normal_commute,0.52,0,72
+POST_0391,Facebook,user_2264,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:39:00,protest_gathering,-0.79,0,3094
+POST_0392,Facebook,user_6604,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:39:06,fire_rumor,-0.79,1,3254
+POST_0393,X,user_9183,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:39:12,normal_commute,0.22,0,92
+POST_0394,Instagram,user_2347,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:39:18,normal_commute,0.21,0,194
+POST_0395,Instagram,user_8738,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:39:24,normal_commute,0.51,0,129
+POST_0396,Telegram,user_3874,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:39:30,normal_commute,0.12,0,162
+POST_0397,X,user_4803,Trains stopped? Chaos at Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:39:36,transport_disruption,-0.53,0,4783
+POST_0398,X,user_8935,Trains stopped? Chaos at Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:39:42,normal_commute,-0.43,0,1883
+POST_0399,Instagram,user_1995,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:39:48,transport_disruption,-0.62,0,2818
+POST_0400,X,user_3447,"Something bad is happening near the station, people running!",Sindhi Camp Bus Stand,26.9221,75.7983,18:39:54,crowd_panic,-0.36,0,4375
+POST_0401,X,user_2152,Evening rush at Jaipur Junction as usual.,Sindhi Camp Bus Stand,26.9221,75.7983,18:40:00,normal_commute,0.34,0,13
+POST_0402,Facebook,user_7534,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:40:06,transport_disruption,-0.72,0,200
+POST_0403,X,user_1352,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:40:12,transport_disruption,-0.43,0,4401
+POST_0404,Instagram,user_1411,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:40:18,normal_commute,0.37,0,59
+POST_0405,Facebook,user_4004,"Something bad is happening near the station, people running!",MI Road,26.9157,75.8186,18:40:24,transport_disruption,-0.34,0,331
+POST_0406,Instagram,user_8294,Metro station busy but manageable.,Metro Station Jaipur,26.9165,75.7893,18:40:30,normal_commute,0.42,0,200
+POST_0407,X,user_2092,Daily commute traffic near MI Road.,Station Road,26.9182,75.7901,18:40:36,normal_commute,0.46,0,158
+POST_0408,Instagram,user_5685,Evening rush at Jaipur Junction as usual.,Station Road,26.9182,75.7901,18:40:42,normal_commute,0.12,0,49
+POST_0409,X,user_5413,Daily commute traffic near MI Road.,Metro Station Jaipur,26.9165,75.7893,18:40:48,normal_commute,0.36,0,54
+POST_0410,Facebook,user_5657,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:40:54,transport_disruption,-0.49,0,1496
+POST_0411,Instagram,user_9879,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:41:00,fire_rumor,-0.81,1,2805
+POST_0412,Telegram,user_1633,"Something bad is happening near the station, people running!",MI Road,26.9157,75.8186,18:41:06,crowd_panic,-0.42,0,546
+POST_0413,Telegram,user_7892,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:41:12,normal_commute,0.25,0,22
+POST_0414,Facebook,user_2921,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:41:18,normal_commute,0.47,0,140
+POST_0415,Telegram,user_4475,"Fire rumor spreading near station, stay safe!",MI Road,26.9157,75.8186,18:41:24,transport_disruption,-0.49,0,4448
+POST_0416,Telegram,user_6862,Huge crowd building up near Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:41:30,crowd_panic,-0.41,0,1306
+POST_0417,Telegram,user_6365,People shouting and running near metro entry!,MI Road,26.9157,75.8186,18:41:36,fire_rumor,-0.49,1,1165
+POST_0418,X,user_8079,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:41:42,protest_gathering,-0.43,0,1496
+POST_0419,X,user_8891,People shouting and running near metro entry!,Jaipur Junction,26.9196,75.7878,18:41:48,normal_commute,-0.45,0,621
+POST_0420,Facebook,user_1781,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:41:54,transport_disruption,-0.81,0,1264
+POST_0421,Telegram,user_6372,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:42:00,normal_commute,-0.76,0,2418
+POST_0422,X,user_9545,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:42:06,normal_commute,0.24,0,15
+POST_0423,X,user_1899,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:42:12,crowd_panic,-0.36,0,1272
+POST_0424,Instagram,user_6753,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:42:18,protest_gathering,-0.36,0,1402
+POST_0425,Facebook,user_5529,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:42:24,normal_commute,0.2,0,28
+POST_0426,X,user_8736,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:42:30,normal_commute,0.53,0,165
+POST_0427,X,user_9933,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:42:36,normal_commute,0.12,0,150
+POST_0428,Facebook,user_7339,Bus stand crowded during peak hours.,Jaipur Junction,26.9196,75.7878,18:42:42,normal_commute,0.59,0,185
+POST_0429,X,user_7830,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:42:48,normal_commute,0.33,0,193
+POST_0430,Telegram,user_8286,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:42:54,normal_commute,0.35,0,113
+POST_0431,Instagram,user_6376,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:43:00,normal_commute,0.16,0,198
+POST_0432,X,user_7338,"Fire rumor spreading near station, stay safe!",Metro Station Jaipur,26.9165,75.7893,18:43:06,protest_gathering,-0.64,0,4691
+POST_0433,Instagram,user_6056,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:43:12,police_action_rumor,-0.86,0,3318
+POST_0434,Telegram,user_9374,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:43:18,normal_commute,0.31,0,126
+POST_0435,Instagram,user_6135,Daily commute traffic near MI Road.,Sindhi Camp Bus Stand,26.9221,75.7983,18:43:24,normal_commute,0.45,0,21
+POST_0436,X,user_3153,Metro station busy but manageable.,Sindhi Camp Bus Stand,26.9221,75.7983,18:43:30,normal_commute,0.24,0,61
+POST_0437,Telegram,user_6988,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:43:36,normal_commute,0.1,0,87
+POST_0438,X,user_3906,People shouting and running near metro entry!,MI Road,26.9157,75.8186,18:43:42,police_action_rumor,-0.56,1,3019
+POST_0439,Instagram,user_5092,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:43:48,normal_commute,0.35,0,20
+POST_0440,X,user_7279,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:43:54,protest_gathering,-0.8,0,187
+POST_0441,Facebook,user_7218,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:44:00,transport_disruption,-0.61,0,2914
+POST_0442,Instagram,user_7896,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:44:06,normal_commute,0.31,0,15
+POST_0443,Telegram,user_4465,Huge crowd building up near Jaipur Junction!,Jaipur Junction,26.9196,75.7878,18:44:12,normal_commute,-0.44,0,4735
+POST_0444,Instagram,user_9197,People shouting and running near metro entry!,Sindhi Camp Bus Stand,26.9221,75.7983,18:44:18,police_action_rumor,-0.52,1,2835
+POST_0445,Telegram,user_9478,Metro station busy but manageable.,MI Road,26.9157,75.8186,18:44:24,normal_commute,0.26,0,121
+POST_0446,Telegram,user_1035,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:44:30,protest_gathering,-0.7,0,667
+POST_0447,Instagram,user_8485,Trains stopped? Chaos at Jaipur Junction!,Station Road,26.9182,75.7901,18:44:36,fire_rumor,-0.4,1,4797
+POST_0448,Instagram,user_5852,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:44:42,normal_commute,0.57,0,92
+POST_0449,Telegram,user_8544,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:44:48,fire_rumor,-0.79,1,3798
+POST_0450,Telegram,user_4732,Bus stand crowded during peak hours.,Station Road,26.9182,75.7901,18:44:54,normal_commute,0.14,0,88
+POST_0451,Facebook,user_2753,Huge crowd building up near Jaipur Junction!,Station Road,26.9182,75.7901,18:45:00,normal_commute,-0.38,0,165
+POST_0452,Facebook,user_1151,"Fire rumor spreading near station, stay safe!",Jaipur Junction,26.9196,75.7878,18:45:06,police_action_rumor,-0.72,1,3880
+POST_0453,Telegram,user_6041,"Police action expected, avoid Jaipur Junction!",Jaipur Junction,26.9196,75.7878,18:45:12,police_action_rumor,-0.73,0,4166
+POST_0454,X,user_2132,Evening rush at Jaipur Junction as usual.,Metro Station Jaipur,26.9165,75.7893,18:45:18,normal_commute,0.57,0,50
+POST_0455,Instagram,user_2678,Evening rush at Jaipur Junction as usual.,Jaipur Junction,26.9196,75.7878,18:45:24,normal_commute,0.26,0,181
+POST_0456,Instagram,user_2331,"Fire rumor spreading near station, stay safe!",Metro Station Jaipur,26.9165,75.7893,18:45:30,fire_rumor,-0.37,0,834
+POST_0457,Telegram,user_8181,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:45:36,normal_commute,0.31,0,106
+POST_0458,Telegram,user_8713,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:45:42,normal_commute,-0.62,0,3669
+POST_0459,X,user_1351,"Police action expected, avoid Jaipur Junction!",Metro Station Jaipur,26.9165,75.7893,18:45:48,police_action_rumor,-0.72,1,2038
+POST_0460,Facebook,user_4292,"Something bad is happening near the station, people running!",Jaipur Junction,26.9196,75.7878,18:45:54,crowd_panic,-0.31,0,4612
+POST_0461,Facebook,user_5982,Evening rush at Jaipur Junction as usual.,MI Road,26.9157,75.8186,18:46:00,normal_commute,0.44,0,39
+POST_0462,X,user_2724,Metro station busy but manageable.,Metro Station Jaipur,26.9165,75.7893,18:46:06,normal_commute,0.47,0,42
+POST_0463,Telegram,user_5775,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:46:12,transport_disruption,-0.73,0,1743
+POST_0464,Instagram,user_1498,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:46:18,normal_commute,0.57,0,141
+POST_0465,X,user_6595,"Police action expected, avoid Jaipur Junction!",MI Road,26.9157,75.8186,18:46:24,protest_gathering,-0.44,0,3337
+POST_0466,Instagram,user_1807,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:46:30,transport_disruption,-0.39,0,3058
+POST_0467,Telegram,user_9035,Bus stand crowded during peak hours.,Station Road,26.9182,75.7901,18:46:36,normal_commute,0.19,0,196
+POST_0468,Facebook,user_6428,"Waiting for train, station crowded as always.",Metro Station Jaipur,26.9165,75.7893,18:46:42,normal_commute,0.55,0,170
+POST_0469,Telegram,user_5233,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:46:48,crowd_panic,-0.77,0,308
+POST_0470,Telegram,user_2379,Huge crowd building up near Jaipur Junction!,MI Road,26.9157,75.8186,18:46:54,transport_disruption,-0.44,0,4417
+POST_0471,X,user_5923,Trains stopped? Chaos at Jaipur Junction!,MI Road,26.9157,75.8186,18:47:00,transport_disruption,-0.7,0,1141
+POST_0472,Instagram,user_9541,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:47:06,normal_commute,0.28,0,45
+POST_0473,Telegram,user_1842,Huge crowd building up near Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:47:12,protest_gathering,-0.76,0,3674
+POST_0474,X,user_9659,Metro station busy but manageable.,Metro Station Jaipur,26.9165,75.7893,18:47:18,normal_commute,0.4,0,181
+POST_0475,Facebook,user_2884,Metro station busy but manageable.,Metro Station Jaipur,26.9165,75.7893,18:47:24,normal_commute,0.38,0,148
+POST_0476,Telegram,user_2948,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:47:30,fire_rumor,-0.59,1,2446
+POST_0477,Telegram,user_3755,"Fire rumor spreading near station, stay safe!",Sindhi Camp Bus Stand,26.9221,75.7983,18:47:36,protest_gathering,-0.32,0,2786
+POST_0478,Telegram,user_9997,"Waiting for train, station crowded as always.",Jaipur Junction,26.9196,75.7878,18:47:42,normal_commute,0.26,0,69
+POST_0479,Facebook,user_7850,People shouting and running near metro entry!,Metro Station Jaipur,26.9165,75.7893,18:47:48,protest_gathering,-0.77,0,1361
+POST_0480,Telegram,user_8895,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:47:54,police_action_rumor,-0.52,1,4857
+POST_0481,X,user_3223,Metro station busy but manageable.,Station Road,26.9182,75.7901,18:48:00,normal_commute,0.23,0,159
+POST_0482,X,user_7742,Daily commute traffic near MI Road.,MI Road,26.9157,75.8186,18:48:06,normal_commute,0.48,0,151
+POST_0483,Telegram,user_4914,"Police action expected, avoid Jaipur Junction!",Sindhi Camp Bus Stand,26.9221,75.7983,18:48:12,normal_commute,-0.33,0,3788
+POST_0484,X,user_3562,"Fire rumor spreading near station, stay safe!",Station Road,26.9182,75.7901,18:48:18,protest_gathering,-0.9,0,2895
+POST_0485,Telegram,user_5630,Daily commute traffic near MI Road.,MI Road,26.9157,75.8186,18:48:24,normal_commute,0.1,0,173
+POST_0486,Facebook,user_2421,People shouting and running near metro entry!,Station Road,26.9182,75.7901,18:48:30,normal_commute,-0.38,0,4330
+POST_0487,X,user_7245,Metro station busy but manageable.,Jaipur Junction,26.9196,75.7878,18:48:36,normal_commute,0.23,0,145
+POST_0488,Instagram,user_2087,"Waiting for train, station crowded as always.",Station Road,26.9182,75.7901,18:48:42,normal_commute,0.4,0,185
+POST_0489,Instagram,user_6435,Metro station busy but manageable.,MI Road,26.9157,75.8186,18:48:48,normal_commute,0.19,0,157
+POST_0490,Facebook,user_2402,Bus stand crowded during peak hours.,Jaipur Junction,26.9196,75.7878,18:48:54,normal_commute,0.19,0,88
+POST_0491,Telegram,user_5289,"Police action expected, avoid Jaipur Junction!",Station Road,26.9182,75.7901,18:49:00,transport_disruption,-0.82,0,859
+POST_0492,X,user_3339,Daily commute traffic near MI Road.,Jaipur Junction,26.9196,75.7878,18:49:06,normal_commute,0.49,0,159
+POST_0493,Telegram,user_8280,"Something bad is happening near the station, people running!",Metro Station Jaipur,26.9165,75.7893,18:49:12,fire_rumor,-0.4,1,456
+POST_0494,X,user_8621,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:49:18,normal_commute,0.57,0,93
+POST_0495,X,user_6337,Daily commute traffic near MI Road.,MI Road,26.9157,75.8186,18:49:24,normal_commute,0.29,0,40
+POST_0496,Instagram,user_1535,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:49:30,normal_commute,0.43,0,112
+POST_0497,Facebook,user_3532,Bus stand crowded during peak hours.,Sindhi Camp Bus Stand,26.9221,75.7983,18:49:36,normal_commute,0.18,0,125
+POST_0498,Instagram,user_4727,Bus stand crowded during peak hours.,MI Road,26.9157,75.8186,18:49:42,normal_commute,0.48,0,155
+POST_0499,Telegram,user_8690,"Waiting for train, station crowded as always.",MI Road,26.9157,75.8186,18:49:48,normal_commute,0.19,0,123
+POST_0500,Facebook,user_8136,Trains stopped? Chaos at Jaipur Junction!,Metro Station Jaipur,26.9165,75.7893,18:49:54,normal_commute,-0.32,0,2480
