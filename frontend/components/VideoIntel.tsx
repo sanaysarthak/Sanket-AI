@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Upload, FileVideo, Play, CheckCircle, BarChart as BarChartIcon, MonitorPlay, AlertTriangle, Download } from 'lucide-react';
 
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:9000';
+
 export default function VideoIntel() {
     const [file, setFile] = useState<File | null>(null);
     const [uploading, setUploading] = useState(false);
@@ -23,7 +25,7 @@ export default function VideoIntel() {
         formData.append('file', file);
 
         try {
-            const response = await fetch('http://localhost:9000/api/analyze/upload', {
+            const response = await fetch(`${API_BASE}/api/analyze/upload`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`
@@ -52,7 +54,7 @@ export default function VideoIntel() {
     const startPolling = (tid: string) => {
         const interval = setInterval(async () => {
             try {
-                const res = await fetch(`http://localhost:9000/api/analyze/status/${tid}`, {
+                const res = await fetch(`${API_BASE}/api/analyze/status/${tid}`, {
                     headers: {
                         'Authorization': `Bearer ${localStorage.getItem('token')}`
                     }
@@ -171,7 +173,7 @@ export default function VideoIntel() {
                                 <video
                                     className="w-full h-full object-contain"
                                     controls
-                                    src={`http://localhost:9000/api/analyze/video/${taskId}`}
+                                    src={`${API_BASE}/api/analyze/video/${taskId}`}
                                 />
                                 <div className="absolute top-4 left-4 bg-black/50 backdrop-blur-md text-white text-xs px-3 py-1 rounded-full flex items-center gap-2">
                                     <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
