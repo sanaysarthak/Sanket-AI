@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-from ultralytics import YOLO
 from collections import deque, defaultdict
 from datetime import datetime
 import math
@@ -8,6 +7,7 @@ import math
 # --- Layer 1: Vision Primitives ---
 class VisionEngine:
     def __init__(self, model_path='yolov8n.pt'):
+        from ultralytics import YOLO  # deferred: torch is heavy, only load when a video is actually processed
         self.model = YOLO(model_path)
         # Classes: 0:Person, 2:Car, 3:Motorcycle, 5:Bus, 7:Truck
         self.target_classes = [0, 2, 3, 5, 7] 
